@@ -2,50 +2,13 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Wed Feb  3 11:19:10 2021
-# Process ID: 12556
+# Start of session at: Wed Feb  3 19:12:57 2021
+# Process ID: 7252
 # Current directory: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2712 C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5796 C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.xpr
 # Log file: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/vivado.log
 # Journal file: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.xpr
 update_compile_order -fileset sources_1
-launch_simulation
-launch_simulation
-launch_simulation
-source audio_recorder_tb.tcl
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/top_tb.vhd w ]
-add_files -fileset sim_1 C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/top_tb.vhd
-update_compile_order -fileset sim_1
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-wait_on_run synth_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-open_run impl_1
-set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
-startgroup
-set_property BITSTREAM.GENERAL.COMPRESS TRUE [get_designs impl_1]
-set_property BITSTREAM.CONFIG.CONFIGRATE 33 [get_designs impl_1]
-set_property config_mode SPIx4 [current_design]
-endgroup
-set_property target_constrs_file C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/constrs_1/imports/SED/Nexys-4-DDR-Master.xdc [current_fileset -constrset]
-save_constraints -force
-reset_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
-current_hw_device [get_hw_devices xc7a100t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
-set_property PROGRAM.FILE {C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
-program_hw_devices [get_hw_devices xc7a100t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
-close_sim
