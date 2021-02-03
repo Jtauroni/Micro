@@ -1,0 +1,1185 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 13812
+License: Customer
+
+Current time: 	Tue Feb 02 18:08:07 CET 2021
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	javig
+User home directory: C:/Users/javig
+User working directory: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/javig/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/javig/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/javig/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/vivado.log
+Vivado journal file location: 	C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/vivado.jou
+Engine tmp dir: 	C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/.Xil/Vivado-13812-DESKTOP-KJRU99T
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 999 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder' 
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 53 MB. Current time: 2/2/21, 6:08:09 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 65 MB (+65573kb) [00:00:18]
+// [Engine Memory]: 999 MB (+895707kb) [00:00:18]
+// [GUI Memory]: 79 MB (+11775kb) [00:00:18]
+// [GUI Memory]: 103 MB (+20450kb) [00:00:19]
+// [GUI Memory]: 111 MB (+3580kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  3607 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.664 ; gain = 0.000 
+// Project name: audio_recorder; location: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 120 MB (+3159kb) [00:03:09]
+// [GUI Memory]: 136 MB (+10118kb) [00:04:19]
+// Elapsed time: 499 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, audio_recorder(Behavioral) (audio_recorder.vhd)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, audio_recorder(Behavioral) (audio_recorder.vhd)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 156 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd), Inst_clk_freq_ctrl : clk_freq_ctrl(Behavioral) (clk_freq_ctrl.vhd)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd), Inst_clk_freq_ctrl : clk_freq_ctrl(Behavioral) (clk_freq_ctrl.vhd)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 46 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+// Elapsed time: 159 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+selectCodeEditor("audio_recorder.vhd", 36, 160); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 88, 157); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+typeControlKey(null, null, 'z');
+// Elapsed time: 31 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 6, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+selectCodeEditor("audio_recorder.vhd", 41, 182); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 243, 223); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("audio_recorder.vhd", 217, 226); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 234, 223); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 247, 202); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+selectCodeEditor("audio_recorder.vhd", 68, 203); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 264, 231); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 77 MB. Current time: 2/2/21, 6:38:09 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 69 MB. Current time: 2/2/21, 7:08:09 PM CET
+// Elapsed time: 4336 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 3); // m (l, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("clk_freq_ctrl.vhd", 122, 101); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 285, 105); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/2/21, 7:38:09 PM CET
+// Elapsed time: 40 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 99 seconds
+selectCodeEditor("clk_freq_ctrl.vhd", 166, 136); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("clk_freq_ctrl.vhd", 165, 139); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 158, 165); // bP (w, cs)
+// Elapsed time: 233 seconds
+selectCodeEditor("clk_freq_ctrl.vhd", 464, 94); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("clk_freq_ctrl.vhd", 788, 85); // bP (w, cs)
+// Elapsed time: 130 seconds
+selectCodeEditor("clk_freq_ctrl.vhd", 383, 120); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/2/21, 8:08:10 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/2/21, 8:38:10 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/2/21, 9:08:10 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/2/21, 9:38:11 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/2/21, 10:08:11 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/2/21, 10:38:11 PM CET
+// Elapsed time: 10924 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+selectCodeEditor("audio_recorder.vhd", 114, 202); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 123, 179); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 139, 222); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 145, 226); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/2/21, 11:08:11 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/2/21, 11:38:12 PM CET
+// Elapsed time: 3605 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 3); // m (l, cs)
+// Elapsed time: 234 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+selectCodeEditor("audio_recorder.vhd", 36, 154); // bP (w, cs)
+// Elapsed time: 205 seconds
+selectCodeEditor("audio_recorder.vhd", 149, 294); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 142, 205); // bP (w, cs)
+// Elapsed time: 50 seconds
+selectCodeEditor("audio_recorder.vhd", 137, 223); // bP (w, cs)
+// Elapsed time: 48 seconds
+selectCodeEditor("audio_recorder.vhd", 753, 223); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 754, 218); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 622, 255); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/3/21, 12:08:12 AM CET
+// Elapsed time: 1457 seconds
+selectCodeEditor("audio_recorder.vhd", 264, 173); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 248, 218); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("audio_recorder.vhd", 246, 203); // bP (w, cs)
+// Elapsed time: 50 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+// Elapsed time: 143 seconds
+selectCodeEditor("audio_recorder.vhd", 43, 302); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("audio_recorder.vhd", 213, 206); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 162, 304); // bP (w, cs)
+// Elapsed time: 572 seconds
+selectCodeEditor("audio_recorder.vhd", 733, 121); // bP (w, cs)
+// Elapsed time: 30 seconds
+selectCodeEditor("audio_recorder.vhd", 86, 77); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 622, 156); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("audio_recorder.vhd", 226, 162); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/3/21, 12:38:12 AM CET
+// Elapsed time: 132 seconds
+selectCodeEditor("audio_recorder.vhd", 150, 234); // bP (w, cs)
+// Elapsed time: 36 seconds
+selectCodeEditor("audio_recorder.vhd", 235, 202); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 562, 237); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 91, 216); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 220, 198); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 230, 197); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 224, 197); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 299, 245); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 317, 307); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 297, 239); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 52, 94); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 244, 223); // bP (w, cs)
+// Elapsed time: 33 seconds
+selectCodeEditor("audio_recorder.vhd", 288, 237); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 287, 170); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 69 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 3); // m (l, cs)
+// Elapsed time: 138 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+// Elapsed time: 69 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // m (l, cs)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 2); // m (l, cs)
+// Elapsed time: 34 seconds
+selectCodeEditor("audio_recorder.vhd", 316, 119); // bP (w, cs)
+// Elapsed time: 104 seconds
+selectCodeEditor("audio_recorder.vhd", 100, 236); // bP (w, cs)
+// Elapsed time: 106 seconds
+selectCodeEditor("audio_recorder.vhd", 3, 264); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 75, 285); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 149, 282); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("audio_recorder.vhd", 27, 246); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 113, 242); // bP (w, cs)
+// Elapsed time: 57 seconds
+selectCodeEditor("audio_recorder.vhd", 502, 242); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 510, 247); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 533, 243); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 508, 285); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 507, 236); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 521, 253); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 538, 238); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 529, 262); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 536, 241); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 432, 170); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 417, 150); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 387, 302); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 290, 273); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/3/21, 1:08:13 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 68 MB. Current time: 2/3/21, 1:38:13 AM CET
+// Elapsed time: 2954 seconds
+selectCodeEditor("audio_recorder.vhd", 112, 291); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 105, 303); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 73, 202); // bP (w, cs)
+// Elapsed time: 28 seconds
+selectCodeEditor("audio_recorder.vhd", 138, 262); // bP (w, cs)
+// Elapsed time: 23 seconds
+selectCodeEditor("audio_recorder.vhd", 231, 238); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("audio_recorder.vhd", 235, 241); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("audio_recorder.vhd", 227, 268); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("audio_recorder.vhd", 196, 195); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("audio_recorder.vhd", 61, 205); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 137, 345); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("audio_recorder.vhd", 145, 287); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 268, 287); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 307, 56); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 281, 291); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("audio_recorder.vhd", 487, 283); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("audio_recorder.vhd", 552, 255); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 65, 102); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 146, 111); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("audio_recorder.vhd", 130, 141); // bP (w, cs)
+// Elapsed time: 87 seconds
+selectCodeEditor("audio_recorder.vhd", 228, 309); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 350, 238); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("audio_recorder.vhd", 51, 265); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 194, 96); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 192, 101); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 193, 264); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 192, 286); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 243, 307); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 209, 311); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 165, 345); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 144, 179); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("audio_recorder.vhd", 65, 143); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 133, 283); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 134, 305); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 136, 287); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 262, 286); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("audio_recorder.vhd", 36, 95); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 258, 218); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 401, 284); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 457, 214); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 424, 143); // bP (w, cs)
+// Elapsed time: 68 seconds
+selectCodeEditor("audio_recorder.vhd", 101, 116); // bP (w, cs)
+// Elapsed time: 33 seconds
+selectCodeEditor("audio_recorder.vhd", 256, 309); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 284, 258); // bP (w, cs)
+// Elapsed time: 25 seconds
+selectCodeEditor("audio_recorder.vhd", 191, 42); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 98, 120); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 188, 160); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 147, 179); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 225, 184); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 137, 98); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 138, 206); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 261, 161); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 259, 200); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 188, 163); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 162, 242); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 188, 180); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 476, 31); // bP (w, cs)
+// Elapsed time: 27 seconds
+selectCodeEditor("audio_recorder.vhd", 280, 183); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 229, 202); // bP (w, cs)
+selectCodeEditor("audio_recorder.vhd", 216, 242); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 137 seconds
+selectCodeEditor("audio_recorder.vhd", 636, 197); // bP (w, cs)
+// Elapsed time: 25 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("audio_recorder.vhd", 450, 158); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 69 MB. Current time: 2/3/21, 2:08:13 AM CET
+// Elapsed time: 933 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd), Inst_clk_freq_ctrl : clk_freq_ctrl(Behavioral) (clk_freq_ctrl.vhd)]", 2, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "audio_recorder_tb"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 19 seconds
+dismissDialog("Add Sources"); // c (cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/audio_recorder_tb.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/audio_recorder_tb.vhd 
+// I (cs): Define Module: addNotify
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.DefineModulesDialog_ARCHITECTURE_NAME, "Structural"); // ac (Q, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Module"); // I (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed time: 28 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, audio_recorder_tb(Structural) (audio_recorder_tb.vhd)]", 12, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, audio_recorder_tb(Structural) (audio_recorder_tb.vhd)]", 12, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, clk_freq_ctrl_tb(behavior) (clk_freq_ctrl_tb.vhd)]", 9, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, clk_freq_ctrl_tb(behavior) (clk_freq_ctrl_tb.vhd)]", 9, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m (l, cs)
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "3 critical warnings"); // h (Q, cs)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL (aI, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectCodeEditor("clk_freq_ctrl_tb.vhd", 17, 54); // bP (w, cs)
+typeControlKey((HResource) null, "clk_freq_ctrl_tb.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 6, 109); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 127, 224); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 287, 294); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+// Elapsed time: 91 seconds
+selectCodeEditor("audio_recorder.vhd", 10, 97); // bP (w, cs)
+// Elapsed time: 90 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectCodeEditor("audio_recorder.vhd", 1, 57); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectCodeEditor("audio_recorder.vhd", 269, 296); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 60, 243); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 51, 207); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 161, 269); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 31, 114); // bP (w, cs)
+// Elapsed time: 42 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 119, 285); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 235, 280); // bP (w, cs)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+// Elapsed time: 16 seconds
+selectCodeEditor("clk_freq_ctrl_tb.vhd", 37, 160); // bP (w, cs)
+typeControlKey((HResource) null, "clk_freq_ctrl_tb.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 27, 123); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 451, 91); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 415, 143); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 334, 136); // bP (w, cs)
+// Elapsed time: 61 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 287, 137); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectCodeEditor("clk_freq_ctrl_tb.vhd", 37, 159); // bP (w, cs)
+typeControlKey((HResource) null, "clk_freq_ctrl_tb.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 110, 262); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 349, 222); // bP (w, cs)
+// Elapsed time: 17 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 345, 220); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 386, 265); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 310, 258); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 323, 204); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 163, 236); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 180, 265); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 198, 297); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 204, 222); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectCodeEditor("clk_freq_ctrl_tb.vhd", 31, 121); // bP (w, cs)
+typeControlKey((HResource) null, "clk_freq_ctrl_tb.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 9, 82); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 316, 53); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 197, 71); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 466, 27); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 71, 53); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectCodeEditor("clk_freq_ctrl_tb.vhd", 20, 158); // bP (w, cs)
+typeControlKey((HResource) null, "clk_freq_ctrl_tb.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 95, 161); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 71, 99); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 146, 203); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 321, 244); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 164, 308); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 329, 301); // bP (w, cs)
+// Elapsed time: 37 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 185, 287); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 186, 263); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 185, 214); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 212, 203); // bP (w, cs)
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 0, 138); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 85, 313); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 2, 218); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 128, 221); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 235, 222); // bP (w, cs)
+// Elapsed time: 25 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 76, 264); // bP (w, cs)
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+// Elapsed time: 82 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 262, 240); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 262, 285); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 126, 264); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 71, 222); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 269, 282); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 286, 330); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 256, 290); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 259, 290, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("audio_recorder_tb.vhd", 67, 223); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 291, 280); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 81, 308); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 290, 195); // bP (w, cs)
+// Elapsed time: 32 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("audio_recorder_tb.vhd", 39, 329); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 12, 131); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 1, 143); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 188, 138); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 529, 195); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 341, 177); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 429, 220); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 409, 221); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 410, 221); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 335, 190); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 425, 206); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 417, 227); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 395, 243); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 38, 96); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 132, 101); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 132, 95); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 326, 307); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 328, 307); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (J, cs)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cs): Settings: addNotify
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // B (E, d)
+selectButton(PAResourceOtoP.ProjectSettingsSimulationPanel_SELECT_TESTBENCH_TOP_MODULE, (String) null); // t (ai, d)
+// bz (d):  Analyze source files for top modules : addNotify
+// R (d): Select Top Module: addNotify
+selectList(PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, "audio_recorder_tb", 1); // S (J, R)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (R)
+dismissDialog("Select Top Module"); // R (d)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (d)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top audio_recorder_tb [get_filesets sim_1] 
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // i (Q, d)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (d)
+dismissDialog("Settings"); // d (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (J, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'audio_recorder_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj audio_recorder_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/new/audio_recorder.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'audio_recorder' INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/audio_recorder_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'audio_recorder_tb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 09d9936fa2324648bba0dbacb2a92225 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot audio_recorder_tb_behav xil_defaultlib.audio_recorder_tb -log elaborate.log" 
+// Tcl Message: Built simulation snapshot audio_recorder_tb_behav 
+// Tcl Message:  ****** Webtalk v2020.1 (64-bit)   **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020   **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Feb  3 02:35:08 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Wed Feb  3 02:35:08 2021... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1016.664 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "audio_recorder_tb_behav -key {Behavioral:sim_1:Functional:audio_recorder_tb} -tclbatch {audio_recorder_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: source audio_recorder_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 81 MB. Current time: 2/3/21, 2:35:12 AM CET
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 8000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'audio_recorder_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 8000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1016.664 ; gain = 0.000 
+// 'd' command handler elapsed time: 15 seconds
+// Elapsed time: 15 seconds
+dismissDialog("Run Simulation"); // e (cs)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E (g, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 81 MB. Current time: 2/3/21, 2:35:20 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 81 MB. Current time: 2/3/21, 2:35:21 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 81 MB. Current time: 2/3/21, 2:35:22 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 81 MB. Current time: 2/3/21, 2:35:22 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 13 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // w
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 2); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 162, 134); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 8, 142); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 4, 137); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 129, 161); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 1, 201); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 44, 150); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 9, 164); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 0, 162); // bP (w, cs)
+typeControlKey((HResource) null, "audio_recorder_tb.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 23, 164); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 229, 166); // bP (w, cs)
+// Elapsed time: 147 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 123, 202); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 126, 239); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 261, 266); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 253, 266); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 256, 205); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (J, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cs):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (v, B)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.664 ; gain = 0.000 
+// e (cs):  Run Simulation : addNotify
+dismissDialog("Close"); // bz (cs)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'audio_recorder_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj audio_recorder_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/audio_recorder_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'audio_recorder_tb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 09d9936fa2324648bba0dbacb2a92225 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot audio_recorder_tb_behav xil_defaultlib.audio_recorder_tb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "audio_recorder_tb_behav -key {Behavioral:sim_1:Functional:audio_recorder_tb} -tclbatch {audio_recorder_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 84 MB. Current time: 2/3/21, 2:39:36 AM CET
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source audio_recorder_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 8000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'audio_recorder_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 8000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.664 ; gain = 0.000 
+// 'd' command handler elapsed time: 16 seconds
+dismissDialog("Run Simulation"); // e (cs)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E (g, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 18 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 83 MB. Current time: 2/3/21, 2:39:59 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 19 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // w
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 146, 287); // bP (w, cs)
+// Elapsed time: 34 seconds
+selectCodeEditor("audio_recorder_tb.vhd", 376, 210); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 273, 163); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 246, 198); // bP (w, cs)
+selectCodeEditor("audio_recorder_tb.vhd", 230, 155); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (J, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bz (cs):  Close : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (v, B)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cs):  Run Simulation : addNotify
+dismissDialog("Close"); // bz (cs)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'audio_recorder_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj audio_recorder_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/audio_recorder_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'audio_recorder_tb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 09d9936fa2324648bba0dbacb2a92225 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot audio_recorder_tb_behav xil_defaultlib.audio_recorder_tb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "audio_recorder_tb_behav -key {Behavioral:sim_1:Functional:audio_recorder_tb} -tclbatch {audio_recorder_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 87 MB. Current time: 2/3/21, 2:41:22 AM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source audio_recorder_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 8000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'audio_recorder_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 8000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.664 ; gain = 0.000 
+// 'd' command handler elapsed time: 9 seconds
+dismissDialog("Run Simulation"); // e (cs)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E (g, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 87 MB. Current time: 2/3/21, 2:41:35 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 87 MB. Current time: 2/3/21, 2:41:41 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DATA_OUTPUT[15:0]]", 4); // a (r, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [GUI Memory]: 146 MB (+3181kb) [08:33:50]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 87 MB. Current time: 2/3/21, 2:41:44 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3", 4); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 87 MB. Current time: 2/3/21, 2:43:00 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:43:05 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:43:10 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+// Elapsed time: 76 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3", 4); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:44:32 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:44:33 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:44:34 AM CET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3", 4); // m (l, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:16 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:16 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:19 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:19 AM CET
+// Elapsed time: 17 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, -54, 65); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, -16, 70); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 24, 69); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:35 AM CET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 69, 67); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 105, 65); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:43 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:45 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:46 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:54 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:56 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:45:59 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:46:00 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:46:05 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 32 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 190, 66); // n (o, cs)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 87 MB. Current time: 2/3/21, 2:47:57 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:47:58 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 109 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder_tb.vhd", 1); // m (l, cs)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 2); // m (l, cs)
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 0); // m (l, cs)
+// Elapsed time: 36 seconds
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (F, cs)
+// Elapsed time: 64 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl_tb.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3", 4); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:50:45 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:50:46 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:50:47 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:50:50 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:50:51 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 86 MB. Current time: 2/3/21, 2:50:52 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 999 MB. GUI used memory: 87 MB. Current time: 2/3/21, 2:50:53 AM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM

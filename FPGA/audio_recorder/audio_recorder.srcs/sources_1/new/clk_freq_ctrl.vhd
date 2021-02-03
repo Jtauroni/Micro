@@ -33,7 +33,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity clk_freq_ctrl is
     Generic (
-    prescaler : integer := 42
+    prescaler : integer := 42 --con 42 obtenemos 100/42=2.38 MHz
     );
     Port ( CLK_IN : in STD_LOGIC;
            CLK_OUT : out STD_LOGIC
@@ -48,6 +48,9 @@ begin
 divide <= prescaler;
 
 process(CLK_IN)
+--Utilizamos un contador. Primero definimos la primera mitad del periodo a nivel bajo
+--Una vez el contador llega a la mitad - 1 del periodo, comienza el nivel alto
+--Cuando el contador llega a (en este caso) 42-1 flancos de subida del reloj original, se resetea el contador y se comienza de nuevo
 begin
     if( rising_edge(CLK_IN) ) then
         if(counter < divide/2-1) then
