@@ -28,7 +28,7 @@ end audio_recorder_tb;
 
 architecture Structural of audio_recorder_tb is
 --Señales y constantes necesarias
- signal CLK_IN, ENABLE, DONE, M_DATA :  std_logic;
+ signal M_CLK_IN, ENABLE, DONE, M_DATA :  std_logic;
 constant clk_period : time := 420 ns;
 constant n_bits : integer := 16;
 signal DATA_OUTPUT : std_logic_vector(n_bits-1 downto 0);
@@ -43,7 +43,7 @@ component audio_recorder is
     M_LR : out std_logic; --si está a 0, los datos se leen en flanco de subida del reloj anterior
     M_DATA : in std_logic; --entrada de datos del micro a la FPGA
     
-    CLK_IN : in std_logic; --Proviene del clk_freq_ctrl, hay que conectarlo a M_CLK
+    M_CLK_IN : in std_logic; --Proviene del clk_freq_ctrl, hay que conectarlo a M_CLK
     ENABLE : in std_logic; --Activa la grabación
     DONE : out std_logic; --Indica que los datos ya se han deserializado
     DATA_OUTPUT : out std_logic_vector(M_N_Bits-1 downto 0) --Salida de datos deserializados
@@ -53,7 +53,7 @@ end component;
 begin
 -- Component Instantiation
           uut:  audio_recorder PORT MAP(
-                  CLK_IN => CLK_IN,
+                  M_CLK_IN => M_CLK_IN,
                   ENABLE => ENABLE,
                   DONE => DONE,
                   M_DATA => M_DATA,
@@ -64,9 +64,9 @@ ENABLE <= '1' after 100 ns;
 --Generar reloj 2,4 MHz
 clk_process :process  --generates a 2,4 MHz clock.
    begin
-        CLK_IN <= '0';
+        M_CLK_IN <= '0';
         wait for clk_period/2;  --for 210 ns signal is '0'.
-        CLK_IN <= '1';
+        M_CLK_IN <= '1';
         wait for clk_period/2;  --for next 210 ns signal is '1'.
    end process;
 --Generar M_DATA de prueba

@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Feb  3 11:07:44 2021
+# Process ID: 2816
+# Current directory: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12596 C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.xpr
+# Log file: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/vivado.log
+# Journal file: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+set_property top clk_freq_ctrl_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source clk_freq_ctrl_tb.tcl
+set_property top audio_recorder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+close_sim

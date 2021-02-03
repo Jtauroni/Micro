@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.runs/synth_1/audio_recorder.tcl"
+  variable script "C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.runs/synth_1/top.tcl"
   variable category "vivado_synth"
 }
 
@@ -85,7 +85,11 @@ set_property ip_output_repo c:/Users/javig/OneDrive/Documentos/sistemas-electron
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/new/audio_recorder.vhd
+read_vhdl -library xil_defaultlib {
+  C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/new/audio_recorder.vhd
+  C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/new/clk_freq_ctrl.vhd
+  C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/new/top.vhd
+}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -102,17 +106,17 @@ set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top audio_recorder -part xc7a100tcsg324-1
+synth_design -top top -part xc7a100tcsg324-1
 OPTRACE "synth_design" END { }
 
 
 OPTRACE "write_checkpoint" START { CHECKPOINT }
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef audio_recorder.dcp
+write_checkpoint -force -noxdef top.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file audio_recorder_utilization_synth.rpt -pb audio_recorder_utilization_synth.pb"
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb"
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

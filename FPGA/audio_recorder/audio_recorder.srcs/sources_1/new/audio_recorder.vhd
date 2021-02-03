@@ -44,7 +44,10 @@ entity audio_recorder is
     M_CLK_IN : in std_logic; --Proviene del clk_freq_ctrl, hay que conectarlo a M_CLK
     ENABLE : in std_logic; --Activa la grabación
     DONE : out std_logic; --Indica que los datos ya se han deserializado
-    DATA_OUTPUT : out std_logic_vector(M_N_Bits-1 downto 0) --Salida de datos deserializados
+    DATA_OUTPUT : out std_logic_vector(M_N_Bits-1 downto 0); --Salida de datos deserializados
+     
+     --LED
+     LED : out std_logic
      );
 end audio_recorder;
 --Los datos salen del micro en formato PDM, hay que deserializarlo en muestras de N bits
@@ -89,10 +92,13 @@ M_CLK <= M_CLK_IN;
             if count_bits = (M_N_Bits-1) then
                DONE <= '1';
                DATA_OUTPUT <= pdm_reg;
+               LED <= '1';
             end if;
          else
             DONE <= '0';
+            LED <= '0';
          end if;
       end if;
    end process;
+   
 end Behavioral;

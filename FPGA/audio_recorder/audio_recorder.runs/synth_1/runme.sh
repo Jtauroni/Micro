@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log audio_recorder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source audio_recorder.tcl
+EAStep vivado -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl

@@ -2,11 +2,11 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon Feb  1 19:04:09 2021
-# Process ID: 7880
+# Start of session at: Wed Feb  3 11:39:53 2021
+# Process ID: 14820
 # Current directory: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.runs/synth_1
-# Command line: vivado.exe -log audio_recorder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source audio_recorder.tcl
-# Log file: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.runs/synth_1/audio_recorder.vds
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.runs/synth_1/top.vds
 # Journal file: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source audio_recorder.tcl -notrace
+source top.tcl -notrace

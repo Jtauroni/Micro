@@ -39,7 +39,8 @@ entity top is
            SW0 : in STD_LOGIC;
            M_DATA : in STD_LOGIC;
            M_CLK : out STD_LOGIC;
-           M_LRSEL : out STD_LOGIC
+           M_LRSEL : out STD_LOGIC;
+           LED0 : out STD_LOGIC
            );
 end top;
 
@@ -68,7 +69,8 @@ component audio_recorder is
     M_CLK_IN : in std_logic; --Proviene del clk_freq_ctrl, hay que conectarlo a M_CLK
     ENABLE : in std_logic; --Activa la grabación
     DONE : out std_logic; --Indica que los datos ya se han deserializado
-    DATA_OUTPUT : out std_logic_vector(M_N_Bits-1 downto 0) --Salida de datos deserializados
+    DATA_OUTPUT : out std_logic_vector(M_N_Bits-1 downto 0); --Salida de datos deserializados
+    LED : out std_logic
      );
 end component;
 
@@ -85,7 +87,8 @@ Inst_audio_recorder: audio_recorder PORT MAP(
     ENABLE => SW0, --El enable se controla con el switch 0
     DONE => done_rec,
     M_DATA => M_DATA,
-    DATA_OUTPUT => DATA_OUTPUT_rec
+    DATA_OUTPUT => DATA_OUTPUT_rec,
+    LED => LED0
     );
 
 end Structural;
