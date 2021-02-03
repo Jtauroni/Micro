@@ -2,10 +2,10 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Tue Feb  2 18:07:40 2021
-# Process ID: 13812
+# Start of session at: Wed Feb  3 02:58:09 2021
+# Process ID: 14256
 # Current directory: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10872 C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3236 C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.xpr
 # Log file: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/vivado.log
 # Journal file: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder\vivado.jou
 #-----------------------------------------------------------
@@ -18,27 +18,9 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
-open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.664 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1031.578 ; gain = 0.000
 update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/audio_recorder_tb.vhd w ]
-add_files -fileset sim_1 C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/audio_recorder_tb.vhd
-update_compile_order -fileset sim_1
-set_property top audio_recorder_tb [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sources_1\new\audio_recorder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sim_1\new\audio_recorder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sim_1\new\clk_freq_ctrl_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sources_1\new\clk_freq_ctrl.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sources_1\new\audio_recorder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sim_1\new\audio_recorder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sim_1\new\clk_freq_ctrl_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sources_1\new\clk_freq_ctrl.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sources_1\new\audio_recorder.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sim_1\new\audio_recorder_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sim_1\new\clk_freq_ctrl_tb.vhd:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\javig\OneDrive\Documentos\sistemas-electronicos-digitales\Micro\FPGA\audio_recorder\audio_recorder.srcs\sources_1\new\clk_freq_ctrl.vhd:]
-update_compile_order -fileset sim_1
+set_property -name {xsim.simulate.runtime} -value {14000ns} -objects [get_filesets sim_1]
 launch_simulation
 Command: launch_simulation 
 INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
@@ -73,17 +55,7 @@ Compiling package ieee.numeric_std
 Compiling architecture behavioral of entity xil_defaultlib.audio_recorder [audio_recorder_default]
 Compiling architecture structural of entity xil_defaultlib.audio_recorder_tb
 Built simulation snapshot audio_recorder_tb_behav
-
-****** Webtalk v2020.1 (64-bit)
-  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-
-source C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Feb  3 02:35:08 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
-INFO: [Common 17-206] Exiting Webtalk at Wed Feb  3 02:35:08 2021...
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1016.664 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
@@ -101,120 +73,8 @@ source audio_recorder_tb.tcl
 #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
 #   }
 # }
-# run 8000ns
+# run 14000ns
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'audio_recorder_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 8000ns
-launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1016.664 ; gain = 0.000
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.664 ; gain = 0.000
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'audio_recorder_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
-"xvhdl --incr --relax -prj audio_recorder_tb_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/audio_recorder_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'audio_recorder_tb'
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
-"xelab -wto 09d9936fa2324648bba0dbacb2a92225 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot audio_recorder_tb_behav xil_defaultlib.audio_recorder_tb -log elaborate.log"
-Vivado Simulator 2020.1
-Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 09d9936fa2324648bba0dbacb2a92225 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot audio_recorder_tb_behav xil_defaultlib.audio_recorder_tb -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling architecture behavioral of entity xil_defaultlib.audio_recorder [audio_recorder_default]
-Compiling architecture structural of entity xil_defaultlib.audio_recorder_tb
-Built simulation snapshot audio_recorder_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "audio_recorder_tb_behav -key {Behavioral:sim_1:Functional:audio_recorder_tb} -tclbatch {audio_recorder_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2020.1
-Time resolution is 1 ps
-source audio_recorder_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 8000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'audio_recorder_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 8000ns
-launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.664 ; gain = 0.000
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'audio_recorder_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
-"xvhdl --incr --relax -prj audio_recorder_tb_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sim_1/new/audio_recorder_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'audio_recorder_tb'
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
-"xelab -wto 09d9936fa2324648bba0dbacb2a92225 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot audio_recorder_tb_behav xil_defaultlib.audio_recorder_tb -log elaborate.log"
-Vivado Simulator 2020.1
-Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 09d9936fa2324648bba0dbacb2a92225 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot audio_recorder_tb_behav xil_defaultlib.audio_recorder_tb -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling architecture behavioral of entity xil_defaultlib.audio_recorder [audio_recorder_default]
-Compiling architecture structural of entity xil_defaultlib.audio_recorder_tb
-Built simulation snapshot audio_recorder_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "audio_recorder_tb_behav -key {Behavioral:sim_1:Functional:audio_recorder_tb} -tclbatch {audio_recorder_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2020.1
-Time resolution is 1 ps
-source audio_recorder_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 8000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'audio_recorder_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 8000ns
-launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.664 ; gain = 0.000
+INFO: [USF-XSim-97] XSim simulation ran for 14000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1031.578 ; gain = 0.000
+update_compile_order -fileset sources_1

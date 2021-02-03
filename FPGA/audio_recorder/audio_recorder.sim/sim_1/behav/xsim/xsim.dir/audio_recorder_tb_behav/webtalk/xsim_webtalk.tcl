@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Wed Feb  3 02:41:19 2021" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Wed Feb  3 02:59:46 2021" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2020.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2902540" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "1f9ed6b9-f424-4982-9c63-bf4bbfb39910" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "09d9936fa2324648bba0dbacb2a92225" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "5" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "6" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  " -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "8" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "6" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "1.05_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "57408_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 3676122387 -regid "" -xml C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "1.09_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "57540_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 2261414798 -regid "" -xml C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.sim/sim_1/behav/xsim/xsim.dir/audio_recorder_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
