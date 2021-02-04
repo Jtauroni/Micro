@@ -54,7 +54,11 @@ DMA_HandleTypeDef hdma_spi3_tx;
 TIM_HandleTypeDef htim2;
 
 /* USER CODE BEGIN PV */
-#define WAV_FILE1 "Prueba.wav"
+#define WAV_FILE0 "0.wav"
+#define WAV_FILE1 "1.wav"
+#define WAV_FILE2 "2.wav"
+#define WAV_FILE3 "3.wav"
+#define WAV_FILED "D.wav"
 uint8_t volumen;
 int interrupcion;
 /* USER CODE END PV */
@@ -169,7 +173,26 @@ int main(void)
         HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, GPIO_PIN_RESET);
         HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET);
         HAL_Delay(500);
-        wavPlayer_fileSelect(WAV_FILE1);
+        if(HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_8))
+        {
+        	wavPlayer_fileSelect(WAV_FILE0);
+        }
+        else if(HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_9))
+        {
+        	wavPlayer_fileSelect(WAV_FILE1);
+        }
+        else if(HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_10))
+        {
+        	wavPlayer_fileSelect(WAV_FILE2);
+        }
+        else if(HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_11))
+        {
+        	wavPlayer_fileSelect(WAV_FILE3);
+        }
+        else
+        {
+        	wavPlayer_fileSelect(WAV_FILED);
+        }
         wavPlayer_play();
 
         while(!wavPlayer_isFinished())
@@ -188,7 +211,6 @@ int main(void)
             pauseResumeToggle^=1;
             if(pauseResumeToggle)
             {
-              HAL_NVIC_DisableIRQ(TIM2_IRQn);
               HAL_TIM_Base_Start_IT(&htim2);
               interrupcion=0;
               HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);
@@ -488,6 +510,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PD8 PD9 PD10 PD11 */
+  GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PD12 PD13 PD14 PD15
                            PD4 */
