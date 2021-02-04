@@ -7,7 +7,7 @@ LIBRARY ieee;
 
   ARCHITECTURE behavior OF clk_freq_ctrl_tb IS
 
-    signal CLK_IN,CLK_OUT :  std_logic;
+    signal CLK_IN,CLK_OUT, RESET_CLK :  std_logic;
     constant clk_period : time := 10 ns;
     
     component clk_freq_ctrl is
@@ -15,7 +15,8 @@ LIBRARY ieee;
     prescaler : integer := 42
     );
     Port ( CLK_IN : in STD_LOGIC;
-           CLK_OUT : out STD_LOGIC
+           CLK_OUT : out STD_LOGIC;
+           RESET_CLK : in STD_LOGIC
            );
 end component;
     
@@ -23,9 +24,16 @@ end component;
   -- Component Instantiation
           uut:  clk_freq_ctrl PORT MAP(
                   CLK_IN => CLK_IN,
-                  CLK_OUT => CLK_OUT
+                  CLK_OUT => CLK_OUT,
+                  RESET_CLK => RESET_CLK
                 );
-
+    reset_process : process
+    begin
+    RESET_CLK <= '1';
+    wait for clk_period*12;
+    RESET_CLK <= '0';
+    wait;
+    end process;
     clk_process :process  --generates a 100 MHz clock.
    begin
         CLK_IN <= '0';

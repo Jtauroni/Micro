@@ -45,7 +45,7 @@ entity audio_recorder is
     ENABLE : in std_logic; --Activa la grabación
     DONE : out std_logic; --Indica que los datos ya se han deserializado
     DATA_OUTPUT : out std_logic_vector(M_N_Bits-1 downto 0); --Salida de datos deserializados
-     
+    RESET_REC : in std_logic; 
      --LED
      LED : out std_logic
      );
@@ -62,9 +62,11 @@ begin
 M_LR <= '0'; --L/R a 0 para leer en flanco de subida
 M_CLK <= M_CLK_IN;
 --Proceso de sampleo mediante registro de desplazamiento, los datos entran por la derecha.
- SAMPLING: process(M_CLK_IN) 
+ SAMPLING: process(M_CLK_IN, RESET_REC ) 
    begin 
-      if rising_edge(M_CLK_IN) then
+      if RESET_REC = '1' then
+      pdm_reg <= (others => '0');  
+      elsif rising_edge(M_CLK_IN) then
          if ENABLE = '1'  then 
             pdm_reg <= pdm_reg(M_N_Bits-2 downto 0) & M_DATA;
          end if; 
@@ -72,8 +74,10 @@ M_CLK <= M_CLK_IN;
    end process SAMPLING;
    
    -- Contar número de bits de datos contados, resetea al llegar a N-1. Cada grupo de N-1 bits es una muestra.
-   CNT_bits: process(M_CLK_IN) begin
-      if rising_edge(M_CLK_IN) then
+   CNT_bits: process(M_CLK_IN, RESET_REC) begin
+      if RESET_REC = '1' then
+         count_bits <= 0;
+      elsif rising_edge(M_CLK_IN) then
          if ENABLE = '1' then
             if count_bits = (M_N_Bits-1) then
                count_bits <= 0;
@@ -85,9 +89,12 @@ M_CLK <= M_CLK_IN;
    end process CNT_bits;
    
    --Generar señal done, indicando muestra sampleada. Carga el valor del reg temporal en DATA_Output
-   process(M_CLK_IN) 
+   process(M_CLK_IN, RESET_REC) 
    begin
-      if rising_edge(M_CLK_IN) then
+      if RESET_REC = '1' then
+         DONE <= '0';
+         LED <= '0';
+      elsif rising_edge(M_CLK_IN) then
          if ENABLE = '1' then
             if count_bits = (M_N_Bits-1) then
                DONE <= '1';

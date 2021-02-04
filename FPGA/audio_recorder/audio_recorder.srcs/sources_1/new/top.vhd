@@ -40,7 +40,8 @@ entity top is
            M_DATA : in STD_LOGIC;
            M_CLK : out STD_LOGIC;
            M_LRSEL : out STD_LOGIC;
-           LED0 : out STD_LOGIC
+           LED0 : out STD_LOGIC;
+           RESET : in STD_LOGIC --Conectado al BTNR
            );
 end top;
 
@@ -51,7 +52,8 @@ architecture Structural of top is
    --Generador reloj 2,4 MHz 
     component clk_freq_ctrl is
     Port ( CLK_IN : in STD_LOGIC;
-           CLK_OUT : out STD_LOGIC
+           CLK_OUT : out STD_LOGIC;
+           RESET_CLK : in STD_LOGIC
            );
 end component;
 
@@ -70,6 +72,7 @@ component audio_recorder is
     ENABLE : in std_logic; --Activa la grabación
     DONE : out std_logic; --Indica que los datos ya se han deserializado
     DATA_OUTPUT : out std_logic_vector(M_N_Bits-1 downto 0); --Salida de datos deserializados
+    RESET_REC : in std_logic;
     LED : out std_logic
      );
 end component;
@@ -77,7 +80,8 @@ end component;
 begin
 Inst_clk_freq_ctrl: clk_freq_ctrl PORT MAP (
     CLK_IN => CLK100MHZ, --Conectamos la entrada del freq_ctrl con el reloj de 100 MHz de la placa
-    CLK_OUT => CLK_MICROFONO --Conectamos la salida del freq_ctrl con la señal clk_microfono
+    CLK_OUT => CLK_MICROFONO, --Conectamos la salida del freq_ctrl con la señal clk_microfono
+    RESET_CLK => RESET
     );
 
 Inst_audio_recorder: audio_recorder PORT MAP(
@@ -88,7 +92,8 @@ Inst_audio_recorder: audio_recorder PORT MAP(
     DONE => done_rec,
     M_DATA => M_DATA,
     DATA_OUTPUT => DATA_OUTPUT_rec,
-    LED => LED0
+    LED => LED0,
+    RESET_REC => RESET
     );
 
 end Structural;

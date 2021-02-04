@@ -28,7 +28,7 @@ end audio_recorder_tb;
 
 architecture Structural of audio_recorder_tb is
 --Señales y constantes necesarias
- signal M_CLK_IN, ENABLE, DONE, M_DATA :  std_logic;
+ signal M_CLK_IN, ENABLE, DONE, M_DATA, RESET_REC :  std_logic;
 constant clk_period : time := 420 ns;
 constant n_bits : integer := 16;
 signal DATA_OUTPUT : std_logic_vector(n_bits-1 downto 0);
@@ -46,7 +46,8 @@ component audio_recorder is
     M_CLK_IN : in std_logic; --Proviene del clk_freq_ctrl, hay que conectarlo a M_CLK
     ENABLE : in std_logic; --Activa la grabación
     DONE : out std_logic; --Indica que los datos ya se han deserializado
-    DATA_OUTPUT : out std_logic_vector(M_N_Bits-1 downto 0) --Salida de datos deserializados
+    DATA_OUTPUT : out std_logic_vector(M_N_Bits-1 downto 0); --Salida de datos deserializados
+    RESET_REC : in std_logic
      );
 end component;
 
@@ -57,10 +58,21 @@ begin
                   ENABLE => ENABLE,
                   DONE => DONE,
                   M_DATA => M_DATA,
-                  DATA_OUTPUT => DATA_OUTPUT
+                  DATA_OUTPUT => DATA_OUTPUT,
+                  RESET_REC => RESET_REC
                 );
---Activar enable
-ENABLE <= '1' after 100 ns;             
+--Reseteo y enable
+rst_process : process
+begin
+    RESET_REC <= '1';
+    ENABLE <= '0';
+    wait for clk_period*3;
+    RESET_REC <= '0';
+    wait for clk_period*3;
+    ENABLE <= '1';
+    wait;
+  end process;
+            
 --Generar reloj 2,4 MHz
 clk_process :process  --generates a 2,4 MHz clock.
    begin
