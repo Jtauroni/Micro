@@ -49,6 +49,7 @@ architecture Structural of top is
     signal CLK_MICROFONO : std_logic; --Señal para conectar la salida del freq ctrl y la entrada del audio recorder
     signal done_rec : std_logic; --Señal para conectar la salida done del audio recorder
     signal DATA_OUTPUT_rec : std_logic_vector(M_N_Bits-1 downto 0); --Señal para conectar la salida de datos del audio recorder
+    signal CLK200MHZ : std_logic; --Para conectar salida del clock wiz con el ddr to sram
    --Generador reloj 2,4 MHz 
     component clk_freq_ctrl is
     Port ( CLK_IN : in STD_LOGIC;
@@ -77,6 +78,19 @@ component audio_recorder is
      );
 end component;
 
+--ClockWizard comp
+component clk_wiz_0
+port
+ (-- Clock in ports
+  -- Clock out ports
+  clk_out1          : out    std_logic;
+  -- Status and control signals
+  reset             : in     std_logic;
+  CLK100MHZ           : in     std_logic
+ );
+end component;
+
+
 begin
 Inst_clk_freq_ctrl: clk_freq_ctrl PORT MAP (
     CLK_IN => CLK100MHZ, --Conectamos la entrada del freq_ctrl con el reloj de 100 MHz de la placa
@@ -96,4 +110,13 @@ Inst_audio_recorder: audio_recorder PORT MAP(
     RESET_REC => RESET
     );
 
+Inst_CLK_WIZ : clk_wiz_0
+   port map ( 
+  -- Clock out ports  
+   clk_out1 => CLK200MHZ,
+  -- Status and control signals                
+   reset => RESET,
+   -- Clock in ports
+   CLK100MHZ => CLK100MHZ
+ );
 end Structural;

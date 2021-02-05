@@ -387,3 +387,1102 @@ selectCodeEditor("top.vhd", 192, 346); // bP (w, cs)
 selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
 // TclEventType: DG_GRAPH_STALE
 // TclEventType: FILE_SET_CHANGE
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 3); // m (l, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 6, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m (l, cs)
+selectCodeEditor("top.vhd", 307, 243); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m (l, cs)
+// Elapsed time: 13 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 90 MB. Current time: 2/4/21, 7:54:29 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 80 MB. Current time: 2/4/21, 8:24:29 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 80 MB. Current time: 2/4/21, 8:54:29 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 80 MB. Current time: 2/4/21, 9:24:29 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 80 MB. Current time: 2/4/21, 9:54:30 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 80 MB. Current time: 2/4/21, 10:24:30 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 80 MB. Current time: 2/4/21, 10:54:30 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 80 MB. Current time: 2/4/21, 11:24:30 PM CET
+// Elapsed time: 15288 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cs)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_SIMULATION_WAVEFORM, "Simulation Waveform"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_SIMULATION_WAVEFORM, "Simulation Waveform"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+// Elapsed time: 192 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd), Inst_clk_freq_ctrl : clk_freq_ctrl(Behavioral) (clk_freq_ctrl.vhd)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd), Inst_clk_freq_ctrl : clk_freq_ctrl(Behavioral) (clk_freq_ctrl.vhd)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 30 seconds
+selectCodeEditor("clk_freq_ctrl.vhd", 258, 158); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("clk_freq_ctrl.vhd", 345, 210); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 326, 251); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 299, 195); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 287, 166); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 280, 162); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 274, 288); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (J, cs)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cs): Settings: addNotify
+selectButton(PAResourceOtoP.ProjectSettingsSimulationPanel_SELECT_TESTBENCH_TOP_MODULE, (String) null); // t (ai, d)
+// bz (d):  Analyze source files for top modules : addNotify
+// R (d): Select Top Module: addNotify
+selectList(PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, "clk_freq_ctrl_tb", 3); // S (J, R)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (R)
+dismissDialog("Select Top Module"); // R (d)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (d)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top clk_freq_ctrl_tb [get_filesets sim_1] 
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (d)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Settings"); // d (cs)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (J, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectCodeEditor("clk_freq_ctrl.vhd", 360, 225); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("clk_freq_ctrl.vhd", 270, 180); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 356, 251); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 346, 159); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 345, 215); // bP (w, cs)
+selectCodeEditor("clk_freq_ctrl.vhd", 268, 238); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 373 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cs)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cs)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_CORE_GEN, "IP Catalog"); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bz (SwingUtilities.SharedOwnerFrame):  Open IP Catalog : addNotify
+dismissDialog("Open IP Catalog"); // bz (SwingUtilities.SharedOwnerFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 83 MB. Current time: 2/4/21, 11:54:31 PM CET
+// Elapsed time: 25 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "clock"); // OverlayTextField (az, cs)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 16, "Clocking Wizard", 0, true); // L (J, cs) - Node
+// Elapsed time: 18 seconds
+selectButton(PAResourceAtoD.CoreDetailsView_VIEW_CHANGE_LOG, "View Change Log"); // h (Q, cs)
+selectButton(PAResourceAtoD.CoreDetailsView_VIEW_CHANGE_LOG, "View Change Log"); // h (Q, cs)
+// Run Command: PAResourceCommand.PACommandNames_SHOW_CHANGE_LOG
+// S (cs): Change Log for Clocking Wizard: addNotify
+selectButton(RDIResource.BaseDialog_CLOSE, "Close"); // a (S)
+dismissDialog("Change Log for Clocking Wizard"); // S (cs)
+selectButton(PAResourceAtoD.CoreDetailsView_STATUS, "Production"); // h (Q, cs)
+// Elapsed time: 13 seconds
+selectButton(PAResourceCommand.PACommandNames_SHOW_COMPATIBLE_FAMILIES, "IP Catalog_show_compatible_families"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_SHOW_COMPATIBLE_FAMILIES
+// b (cs): Compatible Families: addNotify
+expandTree(PAResourceAtoD.CompatibleFamiliesDialog_COMPATIBLE_FAMILIES_DIALOG_TREE, "[Compatible Families, Artix-7 (ALL)]", 0); // a (f, b)
+dismissDialog("Compatible Families"); // b (cs)
+// Elapsed time: 215 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 5); // m (l, cs)
+// Elapsed time: 291 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 6); // m (l, cs)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 16, "Clocking Wizard", 0, true); // L (J, cs) - Node
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 16); // L (J, cs)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 16, "Clocking Wizard", 0, true, false, false, false, false, true); // L (J, cs) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l (cs):  Customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// r (cs): Customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2063 ms.
+dismissDialog("Customize IP"); // l (cs)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+selectCheckBox((HResource) null, "clk_out2", true); // g (bN, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 20 seconds
+setText("CLKOUT2 REQUESTED OUT FREQ", "200.000"); // D (cW, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 49 seconds
+setText("CLKOUT2 REQUESTED OUT FREQ", "2.000"); // D (cW, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  6554 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,110 MB. GUI used memory: 97 MB. Current time: 2/5/21, 12:05:46 AM CET
+// Elapsed time: 18 seconds
+setText("CLKOUT2 REQUESTED OUT FREQ", "2.4000"); // D (cW)
+selectCheckBox((HResource) null, "clk_out2", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  8253 ms.
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [Engine Memory]: 2,758 MB (+1778350kb) [04:44:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,874 MB. GUI used memory: 98 MB. Current time: 2/5/21, 12:06:08 AM CET
+// Elapsed time: 42 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cV (E, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 17 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Resource", 1); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, PAResourceTtoZ.XPG_BasePanel_IP_SYMBOL, "IP Symbol", 0); // cV (E, r)
+// Elapsed time: 12 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+// Elapsed time: 193 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+selectCheckBox((HResource) null, "clk_out2", true); // g (bN, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  8237 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,538 MB. GUI used memory: 97 MB. Current time: 2/5/21, 12:10:42 AM CET
+// Elapsed time: 17 seconds
+setText("CLKOUT2 REQUESTED OUT FREQ", "200.000"); // D (cW)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 29 seconds
+selectCheckBox((HResource) null, "locked", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [Engine Memory]: 3,538 MB (+673183kb) [04:49:47]
+// Elapsed time: 22 seconds
+selectCheckBox((HResource) null, "clk_out3", true); // g (bN, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 11 seconds
+setText("CLKOUT3 REQUESTED OUT FREQ", "4.000"); // D (cW, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 94 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectRadioButton((HResource) null, "PLL"); // cQ
+// WARNING: HEventQueue.dispatchEvent() is taking  7494 ms.
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 18 seconds
+selectRadioButton((HResource) null, "MMCM"); // cQ
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 15 seconds
+selectRadioButton((HResource) null, "PLL"); // cQ
+// WARNING: HEventQueue.dispatchEvent() is taking  13697 ms.
+// Thread: SyntheticaAnimation 50
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Reference Handler
+// 	at java.base@9.0.4/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.Reference.processPendingReferences(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.Reference.access$000(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+// Thread: Thread-1
+// Thread: Monitor HEventQueue Thread
+// 	at java.base@9.0.4/java.lang.Thread.dumpThreads(Native Method)
+// 	at java.base@9.0.4/java.lang.Thread.getAllStackTraces(Unknown Source)
+// 	at ui.utils.d.c.hsh(SourceFile:531)
+// 	at ui.frmwork.b.e.construct(SourceFile:140)
+// 	at ui.frmwork.A.run(SourceFile:203)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: main
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.PlanAhead.c(SourceFile:1118)
+// 	at ui.PlanAhead.jswMain(SourceFile:1165)
+// Thread: TimerQueue
+// 	at java.base@9.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@9.0.4/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+// 	at java.base@9.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+// 	at java.base@9.0.4/java.util.concurrent.DelayQueue.take(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.TimerQueue.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Java2D Disposer
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.desktop@9.0.4/sun.java2d.Disposer.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Monitor File Timestamp Swing Worker Thread
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.views.f.construct(SourceFile:237)
+// 	at ui.frmwork.A.run(SourceFile:203)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: SyntheticaAnimation 50
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.utils.lnf.b.run(SourceFile:100)
+// Thread: Signal Dispatcher
+// Thread: SyntheticaAnimation 70
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Monitor File Timestamp Swing Worker Thread
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.views.f.construct(SourceFile:237)
+// 	at ui.frmwork.A.run(SourceFile:203)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: SyntheticaAnimation 50
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at com.jidesoft.plaf.synthetica.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:99)
+// Thread: SyntheticaAnimation 25
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Batik CleanerThread
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at org.apache.batik.util.CleanerThread.run(CleanerThread.java:106)
+// Thread: Refresh Filesets Swing Worker Thread
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.design.y.construct(SourceFile:2503)
+// 	at ui.frmwork.A.run(SourceFile:203)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Timer-3
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.util.TimerThread.mainLoop(Unknown Source)
+// 	at java.base@9.0.4/java.util.TimerThread.run(Unknown Source)
+// Thread: AWT-EventQueue-0
+// 	at ui.xpeguajni.XPG_JModelJNI.XPG_GuiText_getText(Native Method)
+// 	at ui.xpeguajni.XPG_GuiText.getText(SourceFile:72)
+// 	at ui.data.coregen.a.cT.bBO(SourceFile:91)
+// 	at ui.data.coregen.a.cT.b(SourceFile:69)
+// 	at ui.xpeguajni.XPG_JModel.triggerUpdate(SourceFile:128)
+// 	at ui.xpeguajni.XPG_JModelJNI.XPG_Component_setValueBasic__SWIG_2(Native Method)
+// 	at ui.xpeguajni.H.gh(SourceFile:108)
+// 	at ui.data.coregen.a.cR.actionPerformed(SourceFile:352)
+// 	at java.desktop@9.0.4/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.JToggleButton$ToggleButtonModel.setPressed(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.processMouseEvent(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.JComponent.processMouseEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.processEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Container.processEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Container.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.dispatchEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Container.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Window.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.dispatchEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue.access$500(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue$3.run(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue$3.run(Unknown Source)
+// 	at java.base@9.0.4/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.base@9.0.4/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+// 	at java.base@9.0.4/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue$4.run(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue$4.run(Unknown Source)
+// 	at java.base@9.0.4/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.base@9.0.4/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue.dispatchEvent(Unknown Source)
+// 	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.run(Unknown Source)
+// Thread: Finalizer
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+// Thread: AWT-Windows
+// 	at java.desktop@9.0.4/sun.awt.windows.WToolkit.eventLoop(Native Method)
+// 	at java.desktop@9.0.4/sun.awt.windows.WToolkit.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Common-Cleaner
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/jdk.internal.ref.CleanerImpl.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// 	at java.base@9.0.4/jdk.internal.misc.InnocuousThread.run(Unknown Source)
+// Thread: Attach Listener
+// Thread: Process Messages Thread
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.frmwork.d.h.construct(SourceFile:133)
+// 	at ui.frmwork.A.run(SourceFile:203)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: SyntheticaCleanerThread
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.StyleFactory$ComponentPropertyStore$1.run(StyleFactory.java:1885)
+// Thread: Timer-2
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.util.TimerThread.mainLoop(Unknown Source)
+// 	at java.base@9.0.4/java.util.TimerThread.run(Unknown Source)
+// Thread: hw_ila_monitor
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.Object.wait(Unknown Source)
+// 	at java.base@9.0.4/java.util.TimerThread.mainLoop(Unknown Source)
+// 	at java.base@9.0.4/java.util.TimerThread.run(Unknown Source)
+// Thread: Image Animator 3
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at java.desktop@9.0.4/sun.awt.image.GifFrame.dispose(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.readImage(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.produceImage(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.InputStreamImageSource.doFetch(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.fetchloop(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.run(Unknown Source)
+// Thread: Update Runs Swing Worker Thread
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.experiment.F.construct(SourceFile:317)
+// 	at ui.frmwork.A.run(SourceFile:203)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: AWT-Shutdown
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.Object.wait(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.AWTAutoShutdown.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// WARNING: HEventQueue.dispatchEvent() is taking  2304 ms.
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 100 seconds
+selectRadioButton((HResource) null, "MMCM"); // cQ
+// Elapsed time: 14 seconds
+selectCheckBox((HResource) null, "Phase Alignment", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "Phase Alignment", true); // g (bN, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 16 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+// Elapsed time: 16 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 3); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cV (E, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 10 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+// Elapsed time: 25 seconds
+setText("PRIMARY PORT", "CLK100MHZ"); // D (cW, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+selectCheckBox((HResource) null, "clk_out3", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 10 seconds
+setText("CLKOUT3 REQUESTED OUT FREQ", "4.000"); // D (cW)
+selectCheckBox((HResource) null, "clk_out3", true); // g (bN, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT3 REQUESTED OUT FREQ", "40.000"); // D (cW)
+selectCheckBox((HResource) null, "clk_out3", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "locked", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT1 REQUESTED OUT FREQ", "200.000"); // D (cW)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT2 REQUESTED OUT FREQ", "100.000"); // D (cW)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 29 seconds
+setText("CLKOUT1 REQUESTED OUT FREQ", "200.000"); // D (cW, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 3); // cV (E, r)
+// [GUI Memory]: 194 MB (+22209kb) [04:56:59]
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 4); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 3); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 4); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Summary", 5); // cV (E, r)
+// Elapsed time: 25 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+setText("CLKOUT1 REQUESTED OUT FREQ", "200"); // D (cW)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT2 REQUESTED OUT FREQ", "100"); // D (cW, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cV (E, r)
+// Elapsed time: 10 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Resource", 1); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, PAResourceTtoZ.XPG_BasePanel_IP_SYMBOL, "IP Symbol", 0); // cV (E, r)
+// Elapsed time: 96 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+// Elapsed time: 11 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+selectCheckBox((HResource) null, "Phase Alignment", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+// Elapsed time: 140 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+// Elapsed time: 13 seconds
+selectCheckBox((HResource) null, "clk_out2", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 3); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 4); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Summary", 5); // cV (E, r)
+// Elapsed time: 10 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 4); // cV (E, r)
+// Elapsed time: 39 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+// Elapsed time: 17 seconds
+setText("CLKOUT1 REQUESTED OUT FREQ", "200.000"); // D (cW, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Summary", 5); // cV (E, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// [GUI Memory]: 218 MB (+15875kb) [05:04:11]
+selectButton("OptionPane.button", "OK"); // JButton (v, C)
+dismissDialog("Customize IP"); // r (cs)
+// TclEventType: CREATE_IP_CORE
+// bz (cs):  Customize IP : addNotify
+// Tcl Message: create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 -dir c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... 
+// aI (cs): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 230 MB (+738kb) [05:04:20]
+// Elapsed time: 74 seconds
+selectTree(PAResourceQtoS.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, clk_wiz_0.xci]", 1, false); // ba (J, aI)
+selectTree(PAResourceQtoS.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, clk_wiz_0.xci]", 1, false); // ba (J, aI)
+selectTree(PAResourceQtoS.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, clk_wiz_0.xci]", 1, false); // ba (J, aI)
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bz (cs):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all clk_wiz_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs clk_wiz_0_synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Feb  5 00:27:19 2021] Launched clk_wiz_0_synth_1... Run output will be captured here: C:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.runs/clk_wiz_0_synth_1/runme.log 
+// Tcl Message: INFO: [Vivado 12-4357] Exporting simulation files for 'clk_wiz_0'... please wait for 'clk_wiz_0_synth_1' run to finish... 
+// Tcl Message: wait_on_run clk_wiz_0_synth_1 
+// Tcl Message: [Fri Feb  5 00:27:19 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Fri Feb  5 00:27:24 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Fri Feb  5 00:27:29 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Fri Feb  5 00:27:35 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Fri Feb  5 00:27:45 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Fri Feb  5 00:27:55 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Fri Feb  5 00:28:05 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Fri Feb  5 00:28:15 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Fri Feb  5 00:28:35 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: [Fri Feb  5 00:28:40 2021] clk_wiz_0_synth_1 finished 
+// Tcl Message: wait_on_run: Time (s): cpu = 00:00:03 ; elapsed = 00:01:21 . Memory (MB): peak = 5596.992 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 94 seconds
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 4, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+// 'c' command handler elapsed time: 5 seconds
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -reset -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: remove_files  -fileset clk_wiz_0 c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci 
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [Project 1-386] Moving file 'c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'. 
+// Tcl Message: file delete -force c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0 
+dismissDialog("Remove Sources"); // bz (aE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 4, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: remove_files  c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci 
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 16, "Clocking Wizard", 0, true); // L (J, cs) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 16, "Clocking Wizard", 0, true, false, false, false, false, true); // L (J, cs) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l (cs):  Customize IP : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// r (cs): Customize IP: addNotify
+dismissDialog("Customize IP"); // l (cs)
+// [GUI Memory]: 245 MB (+3307kb) [05:08:20]
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 10 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+selectCheckBox((HResource) null, "Phase Alignment", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 10 seconds
+setText("PRIMARY PORT", "CLK100MHZ"); // D (cW, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+setText("CLKOUT1 REQUESTED OUT FREQ", "200.000"); // D (cW, r)
+selectCheckBox((HResource) null, "locked", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "locked", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 3); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 4); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Summary", 5); // cV (E, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: CREATE_IP_CORE
+dismissDialog("Customize IP"); // r (cs)
+// Tcl Message: create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 -dir c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip 
+// bz (cs):  Customize IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... 
+// aI (cs): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a (Q, aI)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bz (cs):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: set_property generate_synth_checkpoint false [get_files  c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: generate_target all [get_files  c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (cs):  Re-customize IP : addNotify
+// r (cs): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (cs)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+dismissDialog("Re-customize IP"); // r (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 6); // m (l, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 14); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 2); // B (F, cs)
+// A (cs): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v)]", 3, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v), inst : clk_wiz_0_clk_wiz (clk_wiz_0_clk_wiz.v)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v), inst : clk_wiz_0_clk_wiz (clk_wiz_0_clk_wiz.v)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 71 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, clk_wiz_0 (clk_wiz_0.xci)]", 14); // B (F, cs)
+// A (cs): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, clk_wiz_0 (clk_wiz_0.xci)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, clk_wiz_0 (clk_wiz_0.xci)]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (cs):  Re-customize IP : addNotify
+// r (cs): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (cs)
+dismissDialog("Re-customize IP"); // r (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v), inst : clk_wiz_0_clk_wiz (clk_wiz_0_clk_wiz.v)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v), inst : clk_wiz_0_clk_wiz (clk_wiz_0_clk_wiz.v)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 37 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0.v", 7); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0_clk_wiz.v", 8); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0.v", 7); // m (l, cs)
+// Elapsed time: 103 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0_clk_wiz.v", 8); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0.v", 7); // m (l, cs)
+// Elapsed time: 72 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v)]", 3, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectButton((HResource) null, "Code_settings"); // x (g, cs): TRUE
+selectButton((HResource) null, "Code_settings"); // x (g, cs): FALSE
+selectButton(PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES, (String) null); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES
+// a (cs): Language Templates: addNotify
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1); // a (J, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true); // a (J, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true); // a (J, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true, false, false, false, false, true); // a (J, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true); // a (J, a) - Node
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1); // a (J, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, IP Integrator HDL]", 5); // a (J, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, IP Integrator HDL, AXI Interfaces]", 7); // a (J, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, IP Integrator HDL, Advanced Interfaces]", 6); // a (J, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, IP Integrator HDL, Advanced Interfaces, acc]", 8); // a (J, a)
+// Elapsed time: 12 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, IP Integrator HDL, Signal Interfaces]", 77); // a (J, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, IP Integrator HDL, Signal Interfaces, clock]", 78, false); // a (J, a)
+// Elapsed time: 16 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, IP Integrator HDL, Signal Interfaces, clockenable]", 79, false); // a (J, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, IP Integrator HDL, Signal Interfaces, _Info]", 80, false); // a (J, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Device Primitive Instantiation]", 4); // a (J, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Device Primitive Instantiation, Artix-7]", 5); // a (J, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Device Primitive Instantiation, Artix-7, Clock Components]", 8); // a (J, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers]", 9); // a (J, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Device Primitive Instantiation, Artix-7, Clock Components, MMCM / PLL]", 20); // a (J, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Device Primitive Instantiation, Artix-7, Clock Components, MMCM / PLL, Advanced Mixed Mode Clock Manager (MMCME2_ADV)]", 21, false); // a (J, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Device Primitive Instantiation, Artix-7, Clock Components, MMCM / PLL, Advanced Phase Locked Loop (PLLE2_ADV)]", 22, false); // a (J, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Device Primitive Instantiation, Artix-7, Clock Components, MMCM / PLL, Base Mixed Mode Clock Manager (MMCME2_BASE)]", 23, false); // a (J, a)
+// Elapsed time: 112 seconds
+selectButton(RDIResource.BaseDialog_CLOSE, "Close"); // a (a)
+dismissDialog("Language Templates"); // a (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 2, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 2, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: remove_files  c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci 
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: file delete -force c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0 
+dismissDialog("Remove Sources"); // bz (aE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 2, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 2, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: remove_files  c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,538 MB. GUI used memory: 163 MB. Current time: 2/5/21, 12:40:47 AM CET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0.v", 7); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0_clk_wiz.v", 7); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 16, "Clocking Wizard", 0, true); // L (J, cs) - Node
+selectButton(PAResourceCommand.PACommandNames_CUSTOMIZE_CORE, "IP Catalog_customize_core"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l (cs):  Customize IP : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// r (cs): Customize IP: addNotify
+dismissDialog("Customize IP"); // l (cs)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_IP_LOCATION, "IP Location"); // E (g, r)
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k (n, ResizableWindow)
+// Elapsed time: 11 seconds
+dismissDialog("Customize IP"); // r (cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+selectTab((HResource) null, (HResource) null, "Scope", 0); // aL (aI, cs)
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aL (aI, cs)
+// Elapsed time: 52 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 16, "Included", 4, true); // L (J, cs) - Node
+selectButton((HResource) null, "IP Catalog_settings"); // x (g, cs): TRUE
+selectButton(RDIResource.OptionsView_CLOSE, (String) null); // E (g, cs)
+selectButton(PAResourceCommand.PACommandNames_CUSTOMIZE_CORE, "IP Catalog_customize_core"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l (cs):  Customize IP : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// r (cs): Customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1018 ms.
+dismissDialog("Customize IP"); // l (cs)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Resource", 1); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, PAResourceTtoZ.XPG_TopPanel_IP_SYMBOL, "IP Symbol", 0); // cV (E, r)
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (cE, r): FALSE
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g (cE, r): TRUE
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (cE, r): FALSE
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g (cE, r): TRUE
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (cE, r): FALSE
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g (cE, r): TRUE
+selectButton(PAResourceAtoD.CustomizeCoreDialog_IP_LOCATION, "IP Location"); // E (g, r)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_IP_LOCATION, "IP Location"); // E (g, r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+selectCheckBox((HResource) null, "Phase Alignment", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("PRIMARY PORT", "CLK100MHZ"); // D (cW)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("PRIMARY PORT", "CLK100MHZ"); // D (cW, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+// Elapsed time: 11 seconds
+setText("CLKOUT1 REQUESTED OUT FREQ", "200.000"); // D (cW, r)
+selectCheckBox((HResource) null, "locked", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (cE, r): FALSE
+selectCheckBox((HResource) null, "locked", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g (cE, r): TRUE
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (cE, r): FALSE
+selectCheckBox(PAResourceTtoZ.XPG_IPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g (cE, r): TRUE
+// Elapsed time: 11 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 3); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 4); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Summary", 5); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 4); // cV (E, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: CREATE_IP_CORE
+dismissDialog("Customize IP"); // r (cs)
+// bz (cs):  Customize IP : addNotify
+// Tcl Message: create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 -dir c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property -dict [list CONFIG.USE_PHASE_ALIGNMENT {false} CONFIG.CLK_IN1_BOARD_INTERFACE {sys_clock} CONFIG.RESET_BOARD_INTERFACE {reset} CONFIG.PRIMARY_PORT {CLK100MHZ} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {200.000} CONFIG.USE_LOCKED {false} CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} CONFIG.CLKOUT1_DRIVES {BUFG} CONFIG.CLKOUT2_DRIVES {BUFG} CONFIG.CLKOUT3_DRIVES {BUFG} CONFIG.CLKOUT4_DRIVES {BUFG} CONFIG.CLKOUT5_DRIVES {BUFG} CONFIG.CLKOUT6_DRIVES {BUFG} CONFIG.CLKOUT7_DRIVES {BUFG} CONFIG.MMCM_CLKOUT0_DIVIDE_F {5.000} CONFIG.CLKOUT1_JITTER {114.829}] [get_ips clk_wiz_0] 
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... 
+// aI (cs): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a (Q, aI)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceQtoS.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, clk_wiz_0.xci]", 1, false); // ba (J, aI)
+selectTree(PAResourceQtoS.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, clk_wiz_0.xci]", 1, false); // ba (J, aI)
+selectTree(PAResourceQtoS.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, clk_wiz_0.xci]", 1, false); // ba (J, aI)
+selectTree(PAResourceQtoS.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, clk_wiz_0.xci]", 1, false); // ba (J, aI)
+selectTree(PAResourceQtoS.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, clk_wiz_0.xci]", 1, false); // ba (J, aI)
+selectTree(PAResourceQtoS.SimpleOutputProductDialog_OUTPUT_PRODUCT_TREE, "[root, clk_wiz_0.xci]", 2, false); // ba (J, aI)
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a (Q, aI)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_APPLY_OPTIONS_AND_DISMISS_DIALOG_WITHOUT, "Apply"); // a (aI)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// bz (cs):  Apply Synthesis Option : addNotify
+// Tcl Message: set_property generate_synth_checkpoint false [get_files  c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+dismissDialog("Apply Synthesis Option"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bz (cs):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/javig/OneDrive/Documentos/sistemas-electronicos-digitales/Micro/FPGA/audio_recorder/audio_recorder.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 30 seconds
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template]", 2); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 3, false); // B (F, cs)
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Synthesis]", 4); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Synthesis]", 4); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Simulation]", 5); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Simulation]", 5); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Change Log]", 6); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Change Log]", 6); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Change Log]", 6); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Change Log]", 6); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 60 seconds
+selectCodeEditor("clk_wiz_0.vho", 1, 198); // G (w, cs)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // G (w, cs)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // G (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "audio_recorder.vhd", 3); // m (l, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Synthesis]", 4); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Synthesis, clk_wiz_0_board.xdc]", 5, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Synthesis, clk_wiz_0_board.xdc]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 19 seconds
+selectCodeEditor("top.vhd", 16, 161); // bP (w, cs)
+selectCodeEditor("top.vhd", 23, 173); // bP (w, cs)
+selectCodeEditor("top.vhd", 174, 301); // bP (w, cs)
+typeControlKey((HResource) null, "top.vhd", 'v'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_freq_ctrl.vhd", 5); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0.vho", 7); // m (l, cs)
+selectCodeEditor("clk_wiz_0.vho", 247, 297); // G (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("clk_wiz_0.vho", 0, 201); // G (w, cs)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // G (w, cs)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // G (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 1); // m (l, cs)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // w
+selectCodeEditor("top.vhd", 85, 372); // bP (w, cs)
+typeControlKey((HResource) null, "top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("top.vhd", 162, 368); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.vhd", 98, 374); // bP (w, cs)
+selectCodeEditor("top.vhd", 355, 324); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("top.vhd", 49, 307); // bP (w, cs)
+// Elapsed time: 43 seconds
+selectCodeEditor("top.vhd", 136, 264); // bP (w, cs)
+selectCodeEditor("top.vhd", 386, 162); // bP (w, cs)
+selectCodeEditor("top.vhd", 328, 239); // bP (w, cs)
+selectCodeEditor("top.vhd", 152, 296); // bP (w, cs)
+// Elapsed time: 15 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd)]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd), Inst_CLK_WIZ : clk_wiz_0 (clk_wiz_0.xci)]", 4); // B (F, cs)
+// A (cs): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Structural) (top.vhd), Inst_CLK_WIZ : clk_wiz_0 (clk_wiz_0.xci), clk_wiz_0 (clk_wiz_0.v)]", 5); // B (F, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,538 MB. GUI used memory: 181 MB. Current time: 2/5/21, 1:10:47 AM CET
+// Elapsed time: 1205 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 5); // m (l, cs)
+// Elapsed time: 22 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField (az, cs)
+// Elapsed time: 40 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 7, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+// Elapsed time: 65 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField (az, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 5); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // W
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0_board.xdc", 6); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0.vho", 5); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Simulation]", 16); // B (F, cs)
+selectTab((HResource) null, (HResource) null, "Scope", 0); // aL (aI, cs)
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aL (aI, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cs)
+// Elapsed time: 11 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
