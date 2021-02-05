@@ -1,0 +1,407 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 13052
+License: Customer
+
+Current time: 	Fri Feb 05 15:13:56 CET 2021
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Leonard Matulescu
+User home directory: C:/Users/Leonard Matulescu
+User working directory: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/vivado.log
+Vivado journal file location: 	C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/vivado.jou
+Engine tmp dir: 	C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/.Xil/Vivado-13052-LEONARD-PC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	129 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 940 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 78 MB (+79691kb) [00:00:23]
+// [Engine Memory]: 940 MB (+834169kb) [00:00:23]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Leonard Matulescu\Desktop\Universidad\Proyectos Vivado\Trabajo_SED_Version_2\Trabajo_SED_Version_2.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2' 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 897ms to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 940 MB. GUI used memory: 52 MB. Current time: 2/5/21, 3:13:57 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 84 MB (+1903kb) [00:01:09]
+// [GUI Memory]: 102 MB (+13957kb) [00:01:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  6759 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1032 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:49 . Memory (MB): peak = 994.508 ; gain = 0.000 
+// Project name: Trabajo_SED_Version_2; location: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 116 MB (+10017kb) [00:01:19]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 989 MB (+1932kb) [00:01:21]
+// HMemoryUtils.trashcanNow. Engine heap size: 989 MB. GUI used memory: 74 MB. Current time: 2/5/21, 3:14:52 PM CET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TransmisorFM(Behavioral) (TransmisorFM.vhd)]", 1); // B (F, cs)
+// PAPropertyPanels.initPanels (TransmisorFM.vhd) elapsed time: 0.6s
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TransmisorFM(Behavioral) (TransmisorFM.vhd)]", 1, true); // B (F, cs) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1010 ms.
+// [GUI Memory]: 123 MB (+1298kb) [00:01:33]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TransmisorFM(Behavioral) (TransmisorFM.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,037 MB. GUI used memory: 77 MB. Current time: 2/5/21, 3:15:07 PM CET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cs)
+// [Engine Memory]: 1,043 MB (+4412kb) [00:01:43]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// [GUI Memory]: 135 MB (+6051kb) [00:01:43]
+// Elapsed time: 18 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 518, 112); // bP (w, cs)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 517, 174); // bP (w, cs)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 515, 197); // bP (w, cs)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 570, 286); // bP (w, cs)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 520, 344); // bP (w, cs)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 576, 399); // bP (w, cs)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 523, 369); // bP (w, cs)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 581, 424); // bP (w, cs)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 526, 468); // bP (w, cs)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 570, 489); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TransmisorFM.vhd", 1, false, true); // m (l, cs) - Double Click
+// Elapsed time: 1363 seconds
+selectCodeEditor("TransmisorFM.vhd", 108, 79); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 27, 76); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 269, 230); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 152, 178); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 150, 201); // bP (w, cs)
+// Elapsed time: 80 seconds
+selectCodeEditor("TransmisorFM.vhd", 133, 195); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 134, 209); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 258, 305); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 205, 246); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 222, 269); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 326, 399); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 58, 398); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 58, 414); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 115, 437); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 184, 440); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 64, 367); // bP (w, cs)
+selectCodeEditor("TransmisorFM.vhd", 106, 364); // bP (w, cs)
+// Elapsed time: 21 seconds
+selectCodeEditor("TransmisorFM.vhd", 103, 383); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("TransmisorFM.vhd", 285, 220); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cs): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bz (cs):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cs)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: TransmisorFM 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,189 MB. GUI used memory: 77 MB. Current time: 2/5/21, 3:41:17 PM CET
+// TclEventType: ELABORATE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,548 MB. GUI used memory: 77 MB. Current time: 2/5/21, 3:41:32 PM CET
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,641 MB. GUI used memory: 77 MB. Current time: 2/5/21, 3:41:41 PM CET
+// [Engine Memory]: 1,652 MB (+584029kb) [00:28:12]
+// Xgd.load filename: C:/Xilinx/Vivado/2020.1/data/parts/xilinx/artix7/devint/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_floorplan.xgd elapsed time: 0.6s
+// Xgd.load filename: C:/Xilinx/Vivado/2020.1/data/parts/xilinx/artix7/devint/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 1.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.3s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.2s
+// [Engine Memory]: 1,743 MB (+9664kb) [00:28:17]
+// Schematic: addNotify
+// [GUI Memory]: 146 MB (+3827kb) [00:28:18]
+// WARNING: HEventQueue.dispatchEvent() is taking  4400 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a100tcsg324-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1592.641 ; gain = 238.930 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'TransmisorFM' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/TransmisorFM.vhd:14] 
+// Tcl Message: 	Parameter NBits bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'Oscilador' declared at 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Oscilador.vhd:6' bound to instance 'RadioOsc' of component 'Oscilador' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/TransmisorFM.vhd:43] INFO: [Synth 8-638] synthesizing module 'Oscilador' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Oscilador.vhd:18] 
+// Tcl Message: 	Parameter NBits bound to: 32 - type: integer  	Parameter NBits bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'Registro' declared at 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Registro.vhd:4' bound to instance 'AcumuladorFase' of component 'Registro' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Oscilador.vhd:31] INFO: [Synth 8-638] synthesizing module 'Registro' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Registro.vhd:17] 
+// Tcl Message: 	Parameter NBits bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Registro' (1#1) [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Registro.vhd:17] INFO: [Synth 8-256] done synthesizing module 'Oscilador' (2#1) [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Oscilador.vhd:18] 
+// Tcl Message: 	Parameter NBits bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'Multiplexor' declared at 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Multiplexor.vhd:4' bound to instance 'Mux1' of component 'Multiplexor' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/TransmisorFM.vhd:53] INFO: [Synth 8-638] synthesizing module 'Multiplexor' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Multiplexor.vhd:16] 
+// Tcl Message: 	Parameter NBits bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Multiplexor' (3#1) [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Multiplexor.vhd:16] 
+// Tcl Message: 	Parameter NBits bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'Oscilador' declared at 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Oscilador.vhd:6' bound to instance 'AudioOsc' of component 'Oscilador' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/TransmisorFM.vhd:66] 
+// Tcl Message: 	Parameter NBits bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'Multiplexor' declared at 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Multiplexor.vhd:4' bound to instance 'Mux2' of component 'Multiplexor' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/TransmisorFM.vhd:75] INFO: [Synth 8-256] done synthesizing module 'TransmisorFM' (4#1) [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/TransmisorFM.vhd:14] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1643.629 ; gain = 289.918 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1661.293 ; gain = 307.582 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1661.293 ; gain = 307.582 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1661.293 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-4-DDR-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-4-DDR-Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1753.395 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 1758.559 ; gain = 404.848 
+// Tcl Message: 17 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1758.559 ; gain = 685.227 
+// [GUI Memory]: 157 MB (+4178kb) [00:28:20]
+// 'dZ' command handler elapsed time: 38 seconds
+// Elapsed time: 37 seconds
+dismissDialog("Open Elaborated Design"); // bz (cs)
+// [GUI Memory]: 166 MB (+564kb) [00:28:21]
+// Elapsed time: 74 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TransmisorFM.vhd", 2); // m (l, cs)
+// Elapsed time: 878 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 3); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cs)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+// A (cs): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bz (cs):  Close : addNotify
+dismissDialog("Confirm Close"); // A (cs)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,779 MB. GUI used memory: 102 MB. Current time: 2/5/21, 3:57:50 PM CET
+// Engine heap size: 1,779 MB. GUI used memory: 103 MB. Current time: 2/5/21, 3:57:50 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1678 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bz (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Oscilador_tb(Behavioral) (Oscilador_tb.vhd)]", 9, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Oscilador_tb(Behavioral) (Oscilador_tb.vhd), Osc : Oscilador(Behavioral) (Oscilador.vhd)]", 10, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TransmisorFM(Behavioral) (TransmisorFM.vhd)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TransmisorFM(Behavioral) (TransmisorFM.vhd), AudioOsc : Oscilador(Behavioral) (Oscilador.vhd)]", 4, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TransmisorFM(Behavioral) (TransmisorFM.vhd), AudioOsc : Oscilador(Behavioral) (Oscilador.vhd)]", 4, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 31 seconds
+selectCodeEditor("Oscilador.vhd", 168, 43); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 192, 24); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 216, 58); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 193, 42); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 202, 27); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 124, 14); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 238, 29); // bP (w, cs)
+// Elapsed time: 67 seconds
+selectCodeEditor("Oscilador.vhd", 59, 264); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 58, 281); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 56, 302); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 60, 314); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 49, 351); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 50, 365); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 70, 369); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("Oscilador.vhd", 71, 348); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("Oscilador.vhd", 483, 420); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 629, 414); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 46, 432); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 127, 455); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 126, 467); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 123, 469); // bP (w, cs)
+selectCodeEditor("Oscilador.vhd", 113, 482); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 99 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TransmisorFM(Behavioral) (TransmisorFM.vhd), AudioOsc : Oscilador(Behavioral) (Oscilador.vhd)]", 4, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top Oscilador [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cs): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bz (cs):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+dismissDialog("Elaborate Design"); // A (cs)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: Oscilador 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,779 MB. GUI used memory: 82 MB. Current time: 2/5/21, 4:02:44 PM CET
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1089 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1791.496 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Oscilador' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Oscilador.vhd:18] 
+// Tcl Message: 	Parameter NBits bound to: 32 - type: integer  	Parameter NBits bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'Registro' declared at 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Registro.vhd:4' bound to instance 'AcumuladorFase' of component 'Registro' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Oscilador.vhd:31] INFO: [Synth 8-638] synthesizing module 'Registro' [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Registro.vhd:17] 
+// Tcl Message: 	Parameter NBits bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Registro' (1#1) [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Registro.vhd:17] INFO: [Synth 8-256] done synthesizing module 'Oscilador' (2#1) [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Oscilador.vhd:18] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1791.496 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1791.496 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1791.496 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1791.496 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-4-DDR-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-4-DDR-Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1809.629 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1809.629 ; gain = 18.133 
+// Tcl Message: 8 Infos, 4 Warnings, 3 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1809.629 ; gain = 18.133 
+// 'dZ' command handler elapsed time: 11 seconds
+// V (cs): Critical Messages: addNotify
+// Elapsed time: 10 seconds
+dismissDialog("Open Elaborated Design"); // bz (cs)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (V)
+dismissDialog("Critical Messages"); // V (cs)
+// Elapsed time: 37 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // m (l, cs)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TransmisorFM.vhd", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 3); // m (l, cs)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 4); // m (l, cs)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 3); // m (l, cs)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 3, true, false); // m (l, cs) - Popup Trigger
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 3); // m (l, cs)
+selectCodeEditor("Oscilador.vhd", 28, 436); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Oscilador.vhd", 3); // m (l, cs)
+// Elapsed time: 30 seconds
+selectCodeEditor("Oscilador.vhd", 357, 509); // bP (w, cs)
