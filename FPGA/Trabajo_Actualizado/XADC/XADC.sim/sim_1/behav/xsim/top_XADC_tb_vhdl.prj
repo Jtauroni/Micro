@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../XADC.srcs/sources_1/imports/new/top_XADC.vhd" \
+"../../../../XADC.srcs/sim_1/imports/new/top_XADC_tb.vhd" \
+
+# Do not sort compile order
+nosort
