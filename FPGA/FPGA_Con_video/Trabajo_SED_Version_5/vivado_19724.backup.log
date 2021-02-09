@@ -1,0 +1,230 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Feb  9 10:11:10 2021
+# Process ID: 19724
+# Current directory: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14028 C:\Users\Leonard Matulescu\Desktop\Universidad\Proyectos Vivado\Trabajo_SED_Version_5\Trabajo_SED_Version_5.xpr
+# Log file: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/vivado.log
+# Journal file: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5'
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/{C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store}' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/{C:/Users/Leonard}' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'C:/Users/Leonard' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Matulescu/Desktop/Universidad/Proyectos' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path 'Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_5/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_4/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store}}' does not exist, it will not be used to search board files.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/Desktop/Universidad/Proyectos'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/{C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store}'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/{C:/Users/Leonard}'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard'.
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/Leonard Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Trabajo_SED_Version_3/Vivado/XADC/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_2/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Vivado/Trabajo_SED_Version_1.1/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Vivado/Practica3/Vivado/Practica3/Vivado/Practica3/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Vivado/Practica_2/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/Matulescu/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store}}'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:36 . Memory (MB): peak = 1079.449 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-03:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1079.449 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4018CA
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2369.520 ; gain = 1290.070
+set_property PROGRAM.FILE {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.runs/impl_1/TransmisorFM.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.runs/impl_1/TransmisorFM.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-03:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 2430.934 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4018CA
+set_property PROGRAM.FILE {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.runs/impl_1/TransmisorFM.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.runs/impl_1/TransmisorFM.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+set_property -dict [list CONFIG.SINGLE_CHANNEL_SELECTION {VAUXP3_VAUXN3}] [get_ips xadc_wiz_0]
+generate_target all [get_files  {{C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'xadc_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'xadc_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'xadc_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'xadc_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'xadc_wiz_0'...
+catch { config_ip_cache -export [get_ips -all xadc_wiz_0] }
+export_ip_user_files -of_objects [get_files {{C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}]
+launch_runs xadc_wiz_0_synth_1 -jobs 2
+[Tue Feb  9 11:10:05 2021] Launched xadc_wiz_0_synth_1...
+Run output will be captured here: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.runs/xadc_wiz_0_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}] -directory {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.ip_user_files} -ipstatic_source_dir {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.cache/compile_simlib/modelsim} {questa=C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.cache/compile_simlib/questa} {riviera=C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.cache/compile_simlib/riviera} {activehdl=C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Tue Feb  9 11:16:58 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Tue Feb  9 11:18:23 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Tue Feb  9 11:20:21 2021] Launched synth_1...
+Run output will be captured here: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Tue Feb  9 11:21:52 2021] Launched impl_1...
+Run output will be captured here: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.runs/impl_1/runme.log
+set_property -dict [list CONFIG.SINGLE_CHANNEL_SELECTION {VP_VN}] [get_ips xadc_wiz_0]
+generate_target all [get_files  {{C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'xadc_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'xadc_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'xadc_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'xadc_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'xadc_wiz_0'...
+catch { config_ip_cache -export [get_ips -all xadc_wiz_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP xadc_wiz_0, cache-ID = accad8018ed64603; cache size = 0.288 MB.
+catch { [ delete_ip_run [get_ips -all xadc_wiz_0] ] }
+INFO: [Project 1-386] Moving file 'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' from fileset 'xadc_wiz_0' to fileset 'sources_1'.
+export_ip_user_files -of_objects [get_files {{C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci'
+export_simulation -of_objects [get_files {{C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci}}] -directory {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.ip_user_files} -ipstatic_source_dir {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.cache/compile_simlib/modelsim} {questa=C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.cache/compile_simlib/questa} {riviera=C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.cache/compile_simlib/riviera} {activehdl=C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb  9 11:58:36 2021...

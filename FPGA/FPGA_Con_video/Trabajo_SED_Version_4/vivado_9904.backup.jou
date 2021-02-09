@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Feb  8 11:04:32 2021
+# Process ID: 9904
+# Current directory: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16044 C:\Users\Leonard Matulescu\Desktop\Universidad\Proyectos Vivado\Trabajo_SED_Version_4\Trabajo_SED_Version_4.xpr
+# Log file: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_4/vivado.log
+# Journal file: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_4/Trabajo_SED_Version_4.xpr}
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw_manager
+close_hw_manager
+open_run impl_1
+close_design
+synth_design -rtl -name rtl_1
+close_design
+open_run impl_1
+close_design
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
