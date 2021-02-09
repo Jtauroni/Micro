@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Trabajo_SED_Version_2.srcs/sources_1/new/Multiplexor.vhd" \
+"../../../../Trabajo_SED_Version_2.srcs/sim_1/new/Multiplexor_tb.vhd" \
+
+# Do not sort compile order
+nosort

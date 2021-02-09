@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Feb  9 19:16:14 2021
+# Process ID: 22396
+# Current directory: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14188 C:\Users\Leonard Matulescu\Desktop\Universidad\Proyectos Vivado\Trabajo_SED_Version_5\Trabajo_SED_Version_5.xpr
+# Log file: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/vivado.log
+# Journal file: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_5/Trabajo_SED_Version_5.xpr}
+update_compile_order -fileset sources_1

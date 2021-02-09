@@ -1,0 +1,1626 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Feb  5 12:05:00 2021
+| Host         : LEONARD-PC running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -max_paths 10 -file TransmisorFM_timing_summary_routed.rpt -pb TransmisorFM_timing_summary_routed.pb -rpx TransmisorFM_timing_summary_routed.rpx -warn_on_violation
+| Design       : TransmisorFM
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (3)
+6. checking no_output_delay (1)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (3)
+------------------------------
+ There are 3 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (1)
+-------------------------------
+ There is 1 port with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      0.315        0.000                      0                   63        0.142        0.000                      0                   63        0.970        0.000                       0                    64  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock        Waveform(ns)         Period(ns)      Frequency(MHz)
+-----        ------------         ----------      --------------
+sys_clk_pin  {0.000 1.563}        3.125           320.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+sys_clk_pin         0.315        0.000                      0                   63        0.142        0.000                      0                   63        0.970        0.000                       0                    64  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  sys_clk_pin
+  To Clock:  sys_clk_pin
+
+Setup :            0  Failing Endpoints,  Worst Slack        0.315ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.142ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        0.970ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.315ns  (required time - arrival time)
+  Source:                 RadioOsc/AcumuladorFase/QBus_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            RadioOsc/AcumuladorFase/QBus_reg[29]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.809ns  (logic 2.148ns (76.479%)  route 0.661ns (23.521%))
+  Logic Levels:           9  (CARRY4=8 LUT5=1)
+  Clock Path Skew:        -0.028ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.009ns = ( 8.134 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.312ns
+    Clock Pessimism Removal (CPR):    0.275ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.710     5.312    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y102         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y102         FDRE (Prop_fdre_C_Q)         0.456     5.768 r  RadioOsc/AcumuladorFase/QBus_reg[1]/Q
+                         net (fo=1, routed)           0.661     6.429    AudioOsc/AcumuladorFase/Q[0]
+    SLICE_X0Y102         LUT5 (Prop_lut5_I3_O)        0.124     6.553 r  AudioOsc/AcumuladorFase/QBus[3]_i_8/O
+                         net (fo=1, routed)           0.000     6.553    AudioOsc/AcumuladorFase/QBus[3]_i_8_n_0
+    SLICE_X0Y102         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.103 r  AudioOsc/AcumuladorFase/QBus_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.103    AudioOsc/AcumuladorFase/QBus_reg[3]_i_1_n_0
+    SLICE_X0Y103         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.217 r  AudioOsc/AcumuladorFase/QBus_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.217    AudioOsc/AcumuladorFase/QBus_reg[7]_i_1_n_0
+    SLICE_X0Y104         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.331 r  AudioOsc/AcumuladorFase/QBus_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.331    AudioOsc/AcumuladorFase/QBus_reg[11]_i_1_n_0
+    SLICE_X0Y105         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.445 r  AudioOsc/AcumuladorFase/QBus_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.445    AudioOsc/AcumuladorFase/QBus_reg[15]_i_1_n_0
+    SLICE_X0Y106         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.559 r  AudioOsc/AcumuladorFase/QBus_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.559    AudioOsc/AcumuladorFase/QBus_reg[19]_i_1_n_0
+    SLICE_X0Y107         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.673 r  AudioOsc/AcumuladorFase/QBus_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.673    AudioOsc/AcumuladorFase/QBus_reg[23]_i_1_n_0
+    SLICE_X0Y108         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.787 r  AudioOsc/AcumuladorFase/QBus_reg[27]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.787    AudioOsc/AcumuladorFase/QBus_reg[27]_i_1_n_0
+    SLICE_X0Y109         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.334     8.121 r  AudioOsc/AcumuladorFase/QBus_reg[31]_i_1/O[1]
+                         net (fo=1, routed)           0.000     8.121    RadioOsc/AcumuladorFase/D[29]
+    SLICE_X0Y109         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[29]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.587     8.134    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y109         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[29]/C
+                         clock pessimism              0.275     8.409    
+                         clock uncertainty           -0.035     8.374    
+    SLICE_X0Y109         FDRE (Setup_fdre_C_D)        0.062     8.436    RadioOsc/AcumuladorFase/QBus_reg[29]
+  -------------------------------------------------------------------
+                         required time                          8.436    
+                         arrival time                          -8.121    
+  -------------------------------------------------------------------
+                         slack                                  0.315    
+
+Slack (MET) :             0.326ns  (required time - arrival time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[6]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[30]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.690ns  (logic 2.034ns (75.619%)  route 0.656ns (24.381%))
+  Logic Levels:           8  (CARRY4=7 LUT2=1)
+  Clock Path Skew:        -0.136ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.012ns = ( 8.137 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.328ns
+    Clock Pessimism Removal (CPR):    0.180ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.725     5.328    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y96          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[6]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y96          FDRE (Prop_fdre_C_Q)         0.456     5.784 r  AudioOsc/AcumuladorFase/QBus_reg[6]/Q
+                         net (fo=1, routed)           0.655     6.439    AudioOsc/AcumuladorFase/RegOUT[6]
+    SLICE_X1Y96          LUT2 (Prop_lut2_I1_O)        0.124     6.563 r  AudioOsc/AcumuladorFase/QBus[8]_i_6/O
+                         net (fo=1, routed)           0.000     6.563    AudioOsc/AcumuladorFase/QBus[8]_i_6_n_0
+    SLICE_X1Y96          CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.113 r  AudioOsc/AcumuladorFase/QBus_reg[8]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.113    AudioOsc/AcumuladorFase/QBus_reg[8]_i_1_n_0
+    SLICE_X1Y97          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.227 r  AudioOsc/AcumuladorFase/QBus_reg[12]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.227    AudioOsc/AcumuladorFase/QBus_reg[12]_i_1_n_0
+    SLICE_X1Y98          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.341 r  AudioOsc/AcumuladorFase/QBus_reg[16]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.341    AudioOsc/AcumuladorFase/QBus_reg[16]_i_1_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.455 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     7.456    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.570 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.570    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.684 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.684    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_0
+    SLICE_X1Y102         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.334     8.017 r  AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0/O[1]
+                         net (fo=1, routed)           0.000     8.017    AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0_n_6
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[30]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.590     8.137    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[30]/C
+                         clock pessimism              0.180     8.317    
+                         clock uncertainty           -0.035     8.282    
+    SLICE_X1Y102         FDRE (Setup_fdre_C_D)        0.062     8.344    AudioOsc/AcumuladorFase/QBus_reg[30]
+  -------------------------------------------------------------------
+                         required time                          8.344    
+                         arrival time                          -8.018    
+  -------------------------------------------------------------------
+                         slack                                  0.326    
+
+Slack (MET) :             0.336ns  (required time - arrival time)
+  Source:                 RadioOsc/AcumuladorFase/QBus_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            RadioOsc/AcumuladorFase/QBus_reg[31]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.788ns  (logic 2.127ns (76.302%)  route 0.661ns (23.698%))
+  Logic Levels:           9  (CARRY4=8 LUT5=1)
+  Clock Path Skew:        -0.028ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.009ns = ( 8.134 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.312ns
+    Clock Pessimism Removal (CPR):    0.275ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.710     5.312    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y102         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y102         FDRE (Prop_fdre_C_Q)         0.456     5.768 r  RadioOsc/AcumuladorFase/QBus_reg[1]/Q
+                         net (fo=1, routed)           0.661     6.429    AudioOsc/AcumuladorFase/Q[0]
+    SLICE_X0Y102         LUT5 (Prop_lut5_I3_O)        0.124     6.553 r  AudioOsc/AcumuladorFase/QBus[3]_i_8/O
+                         net (fo=1, routed)           0.000     6.553    AudioOsc/AcumuladorFase/QBus[3]_i_8_n_0
+    SLICE_X0Y102         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.103 r  AudioOsc/AcumuladorFase/QBus_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.103    AudioOsc/AcumuladorFase/QBus_reg[3]_i_1_n_0
+    SLICE_X0Y103         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.217 r  AudioOsc/AcumuladorFase/QBus_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.217    AudioOsc/AcumuladorFase/QBus_reg[7]_i_1_n_0
+    SLICE_X0Y104         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.331 r  AudioOsc/AcumuladorFase/QBus_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.331    AudioOsc/AcumuladorFase/QBus_reg[11]_i_1_n_0
+    SLICE_X0Y105         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.445 r  AudioOsc/AcumuladorFase/QBus_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.445    AudioOsc/AcumuladorFase/QBus_reg[15]_i_1_n_0
+    SLICE_X0Y106         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.559 r  AudioOsc/AcumuladorFase/QBus_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.559    AudioOsc/AcumuladorFase/QBus_reg[19]_i_1_n_0
+    SLICE_X0Y107         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.673 r  AudioOsc/AcumuladorFase/QBus_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.673    AudioOsc/AcumuladorFase/QBus_reg[23]_i_1_n_0
+    SLICE_X0Y108         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.787 r  AudioOsc/AcumuladorFase/QBus_reg[27]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.787    AudioOsc/AcumuladorFase/QBus_reg[27]_i_1_n_0
+    SLICE_X0Y109         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.313     8.100 r  AudioOsc/AcumuladorFase/QBus_reg[31]_i_1/O[3]
+                         net (fo=1, routed)           0.000     8.100    RadioOsc/AcumuladorFase/D[31]
+    SLICE_X0Y109         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[31]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.587     8.134    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y109         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[31]/C
+                         clock pessimism              0.275     8.409    
+                         clock uncertainty           -0.035     8.374    
+    SLICE_X0Y109         FDRE (Setup_fdre_C_D)        0.062     8.436    RadioOsc/AcumuladorFase/QBus_reg[31]
+  -------------------------------------------------------------------
+                         required time                          8.436    
+                         arrival time                          -8.100    
+  -------------------------------------------------------------------
+                         slack                                  0.336    
+
+Slack (MET) :             0.410ns  (required time - arrival time)
+  Source:                 RadioOsc/AcumuladorFase/QBus_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            RadioOsc/AcumuladorFase/QBus_reg[30]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.714ns  (logic 2.053ns (75.655%)  route 0.661ns (24.345%))
+  Logic Levels:           9  (CARRY4=8 LUT5=1)
+  Clock Path Skew:        -0.028ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.009ns = ( 8.134 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.312ns
+    Clock Pessimism Removal (CPR):    0.275ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.710     5.312    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y102         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y102         FDRE (Prop_fdre_C_Q)         0.456     5.768 r  RadioOsc/AcumuladorFase/QBus_reg[1]/Q
+                         net (fo=1, routed)           0.661     6.429    AudioOsc/AcumuladorFase/Q[0]
+    SLICE_X0Y102         LUT5 (Prop_lut5_I3_O)        0.124     6.553 r  AudioOsc/AcumuladorFase/QBus[3]_i_8/O
+                         net (fo=1, routed)           0.000     6.553    AudioOsc/AcumuladorFase/QBus[3]_i_8_n_0
+    SLICE_X0Y102         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.103 r  AudioOsc/AcumuladorFase/QBus_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.103    AudioOsc/AcumuladorFase/QBus_reg[3]_i_1_n_0
+    SLICE_X0Y103         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.217 r  AudioOsc/AcumuladorFase/QBus_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.217    AudioOsc/AcumuladorFase/QBus_reg[7]_i_1_n_0
+    SLICE_X0Y104         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.331 r  AudioOsc/AcumuladorFase/QBus_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.331    AudioOsc/AcumuladorFase/QBus_reg[11]_i_1_n_0
+    SLICE_X0Y105         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.445 r  AudioOsc/AcumuladorFase/QBus_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.445    AudioOsc/AcumuladorFase/QBus_reg[15]_i_1_n_0
+    SLICE_X0Y106         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.559 r  AudioOsc/AcumuladorFase/QBus_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.559    AudioOsc/AcumuladorFase/QBus_reg[19]_i_1_n_0
+    SLICE_X0Y107         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.673 r  AudioOsc/AcumuladorFase/QBus_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.673    AudioOsc/AcumuladorFase/QBus_reg[23]_i_1_n_0
+    SLICE_X0Y108         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.787 r  AudioOsc/AcumuladorFase/QBus_reg[27]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.787    AudioOsc/AcumuladorFase/QBus_reg[27]_i_1_n_0
+    SLICE_X0Y109         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.239     8.026 r  AudioOsc/AcumuladorFase/QBus_reg[31]_i_1/O[2]
+                         net (fo=1, routed)           0.000     8.026    RadioOsc/AcumuladorFase/D[30]
+    SLICE_X0Y109         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[30]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.587     8.134    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y109         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[30]/C
+                         clock pessimism              0.275     8.409    
+                         clock uncertainty           -0.035     8.374    
+    SLICE_X0Y109         FDRE (Setup_fdre_C_D)        0.062     8.436    RadioOsc/AcumuladorFase/QBus_reg[30]
+  -------------------------------------------------------------------
+                         required time                          8.436    
+                         arrival time                          -8.026    
+  -------------------------------------------------------------------
+                         slack                                  0.410    
+
+Slack (MET) :             0.421ns  (required time - arrival time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[6]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[31]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.595ns  (logic 1.939ns (74.726%)  route 0.656ns (25.274%))
+  Logic Levels:           8  (CARRY4=7 LUT2=1)
+  Clock Path Skew:        -0.136ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.012ns = ( 8.137 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.328ns
+    Clock Pessimism Removal (CPR):    0.180ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.725     5.328    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y96          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[6]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y96          FDRE (Prop_fdre_C_Q)         0.456     5.784 r  AudioOsc/AcumuladorFase/QBus_reg[6]/Q
+                         net (fo=1, routed)           0.655     6.439    AudioOsc/AcumuladorFase/RegOUT[6]
+    SLICE_X1Y96          LUT2 (Prop_lut2_I1_O)        0.124     6.563 r  AudioOsc/AcumuladorFase/QBus[8]_i_6/O
+                         net (fo=1, routed)           0.000     6.563    AudioOsc/AcumuladorFase/QBus[8]_i_6_n_0
+    SLICE_X1Y96          CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.113 r  AudioOsc/AcumuladorFase/QBus_reg[8]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.113    AudioOsc/AcumuladorFase/QBus_reg[8]_i_1_n_0
+    SLICE_X1Y97          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.227 r  AudioOsc/AcumuladorFase/QBus_reg[12]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.227    AudioOsc/AcumuladorFase/QBus_reg[12]_i_1_n_0
+    SLICE_X1Y98          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.341 r  AudioOsc/AcumuladorFase/QBus_reg[16]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.341    AudioOsc/AcumuladorFase/QBus_reg[16]_i_1_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.455 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     7.456    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.570 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.570    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.684 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.684    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_0
+    SLICE_X1Y102         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.239     7.923 r  AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0/O[2]
+                         net (fo=1, routed)           0.000     7.923    AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0_n_5
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[31]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.590     8.137    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[31]/C
+                         clock pessimism              0.180     8.317    
+                         clock uncertainty           -0.035     8.282    
+    SLICE_X1Y102         FDRE (Setup_fdre_C_D)        0.062     8.344    AudioOsc/AcumuladorFase/QBus_reg[31]
+  -------------------------------------------------------------------
+                         required time                          8.344    
+                         arrival time                          -7.923    
+  -------------------------------------------------------------------
+                         slack                                  0.421    
+
+Slack (MET) :             0.426ns  (required time - arrival time)
+  Source:                 RadioOsc/AcumuladorFase/QBus_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            RadioOsc/AcumuladorFase/QBus_reg[28]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.698ns  (logic 2.037ns (75.511%)  route 0.661ns (24.489%))
+  Logic Levels:           9  (CARRY4=8 LUT5=1)
+  Clock Path Skew:        -0.028ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.009ns = ( 8.134 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.312ns
+    Clock Pessimism Removal (CPR):    0.275ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.710     5.312    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y102         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y102         FDRE (Prop_fdre_C_Q)         0.456     5.768 r  RadioOsc/AcumuladorFase/QBus_reg[1]/Q
+                         net (fo=1, routed)           0.661     6.429    AudioOsc/AcumuladorFase/Q[0]
+    SLICE_X0Y102         LUT5 (Prop_lut5_I3_O)        0.124     6.553 r  AudioOsc/AcumuladorFase/QBus[3]_i_8/O
+                         net (fo=1, routed)           0.000     6.553    AudioOsc/AcumuladorFase/QBus[3]_i_8_n_0
+    SLICE_X0Y102         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.103 r  AudioOsc/AcumuladorFase/QBus_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.103    AudioOsc/AcumuladorFase/QBus_reg[3]_i_1_n_0
+    SLICE_X0Y103         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.217 r  AudioOsc/AcumuladorFase/QBus_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.217    AudioOsc/AcumuladorFase/QBus_reg[7]_i_1_n_0
+    SLICE_X0Y104         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.331 r  AudioOsc/AcumuladorFase/QBus_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.331    AudioOsc/AcumuladorFase/QBus_reg[11]_i_1_n_0
+    SLICE_X0Y105         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.445 r  AudioOsc/AcumuladorFase/QBus_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.445    AudioOsc/AcumuladorFase/QBus_reg[15]_i_1_n_0
+    SLICE_X0Y106         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.559 r  AudioOsc/AcumuladorFase/QBus_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.559    AudioOsc/AcumuladorFase/QBus_reg[19]_i_1_n_0
+    SLICE_X0Y107         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.673 r  AudioOsc/AcumuladorFase/QBus_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.673    AudioOsc/AcumuladorFase/QBus_reg[23]_i_1_n_0
+    SLICE_X0Y108         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.787 r  AudioOsc/AcumuladorFase/QBus_reg[27]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.787    AudioOsc/AcumuladorFase/QBus_reg[27]_i_1_n_0
+    SLICE_X0Y109         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.223     8.010 r  AudioOsc/AcumuladorFase/QBus_reg[31]_i_1/O[0]
+                         net (fo=1, routed)           0.000     8.010    RadioOsc/AcumuladorFase/D[28]
+    SLICE_X0Y109         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[28]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.587     8.134    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y109         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[28]/C
+                         clock pessimism              0.275     8.409    
+                         clock uncertainty           -0.035     8.374    
+    SLICE_X0Y109         FDRE (Setup_fdre_C_D)        0.062     8.436    RadioOsc/AcumuladorFase/QBus_reg[28]
+  -------------------------------------------------------------------
+                         required time                          8.436    
+                         arrival time                          -8.010    
+  -------------------------------------------------------------------
+                         slack                                  0.426    
+
+Slack (MET) :             0.430ns  (required time - arrival time)
+  Source:                 RadioOsc/AcumuladorFase/QBus_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            RadioOsc/AcumuladorFase/QBus_reg[25]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.695ns  (logic 2.034ns (75.484%)  route 0.661ns (24.516%))
+  Logic Levels:           8  (CARRY4=7 LUT5=1)
+  Clock Path Skew:        -0.027ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.010ns = ( 8.135 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.312ns
+    Clock Pessimism Removal (CPR):    0.275ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.710     5.312    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y102         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y102         FDRE (Prop_fdre_C_Q)         0.456     5.768 r  RadioOsc/AcumuladorFase/QBus_reg[1]/Q
+                         net (fo=1, routed)           0.661     6.429    AudioOsc/AcumuladorFase/Q[0]
+    SLICE_X0Y102         LUT5 (Prop_lut5_I3_O)        0.124     6.553 r  AudioOsc/AcumuladorFase/QBus[3]_i_8/O
+                         net (fo=1, routed)           0.000     6.553    AudioOsc/AcumuladorFase/QBus[3]_i_8_n_0
+    SLICE_X0Y102         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.103 r  AudioOsc/AcumuladorFase/QBus_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.103    AudioOsc/AcumuladorFase/QBus_reg[3]_i_1_n_0
+    SLICE_X0Y103         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.217 r  AudioOsc/AcumuladorFase/QBus_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.217    AudioOsc/AcumuladorFase/QBus_reg[7]_i_1_n_0
+    SLICE_X0Y104         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.331 r  AudioOsc/AcumuladorFase/QBus_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.331    AudioOsc/AcumuladorFase/QBus_reg[11]_i_1_n_0
+    SLICE_X0Y105         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.445 r  AudioOsc/AcumuladorFase/QBus_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.445    AudioOsc/AcumuladorFase/QBus_reg[15]_i_1_n_0
+    SLICE_X0Y106         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.559 r  AudioOsc/AcumuladorFase/QBus_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.559    AudioOsc/AcumuladorFase/QBus_reg[19]_i_1_n_0
+    SLICE_X0Y107         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.673 r  AudioOsc/AcumuladorFase/QBus_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.673    AudioOsc/AcumuladorFase/QBus_reg[23]_i_1_n_0
+    SLICE_X0Y108         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.334     8.007 r  AudioOsc/AcumuladorFase/QBus_reg[27]_i_1/O[1]
+                         net (fo=1, routed)           0.000     8.007    RadioOsc/AcumuladorFase/D[25]
+    SLICE_X0Y108         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[25]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.588     8.135    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y108         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[25]/C
+                         clock pessimism              0.275     8.410    
+                         clock uncertainty           -0.035     8.375    
+    SLICE_X0Y108         FDRE (Setup_fdre_C_D)        0.062     8.437    RadioOsc/AcumuladorFase/QBus_reg[25]
+  -------------------------------------------------------------------
+                         required time                          8.437    
+                         arrival time                          -8.007    
+  -------------------------------------------------------------------
+                         slack                                  0.430    
+
+Slack (MET) :             0.437ns  (required time - arrival time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[6]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[29]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.579ns  (logic 1.923ns (74.570%)  route 0.656ns (25.430%))
+  Logic Levels:           8  (CARRY4=7 LUT2=1)
+  Clock Path Skew:        -0.136ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.012ns = ( 8.137 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.328ns
+    Clock Pessimism Removal (CPR):    0.180ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.725     5.328    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y96          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[6]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y96          FDRE (Prop_fdre_C_Q)         0.456     5.784 r  AudioOsc/AcumuladorFase/QBus_reg[6]/Q
+                         net (fo=1, routed)           0.655     6.439    AudioOsc/AcumuladorFase/RegOUT[6]
+    SLICE_X1Y96          LUT2 (Prop_lut2_I1_O)        0.124     6.563 r  AudioOsc/AcumuladorFase/QBus[8]_i_6/O
+                         net (fo=1, routed)           0.000     6.563    AudioOsc/AcumuladorFase/QBus[8]_i_6_n_0
+    SLICE_X1Y96          CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.113 r  AudioOsc/AcumuladorFase/QBus_reg[8]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.113    AudioOsc/AcumuladorFase/QBus_reg[8]_i_1_n_0
+    SLICE_X1Y97          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.227 r  AudioOsc/AcumuladorFase/QBus_reg[12]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.227    AudioOsc/AcumuladorFase/QBus_reg[12]_i_1_n_0
+    SLICE_X1Y98          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.341 r  AudioOsc/AcumuladorFase/QBus_reg[16]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.341    AudioOsc/AcumuladorFase/QBus_reg[16]_i_1_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.455 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     7.456    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.570 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.570    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.684 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.684    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_0
+    SLICE_X1Y102         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.223     7.907 r  AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0/O[0]
+                         net (fo=1, routed)           0.000     7.907    AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0_n_7
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[29]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.590     8.137    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[29]/C
+                         clock pessimism              0.180     8.317    
+                         clock uncertainty           -0.035     8.282    
+    SLICE_X1Y102         FDRE (Setup_fdre_C_D)        0.062     8.344    AudioOsc/AcumuladorFase/QBus_reg[29]
+  -------------------------------------------------------------------
+                         required time                          8.344    
+                         arrival time                          -7.907    
+  -------------------------------------------------------------------
+                         slack                                  0.437    
+
+Slack (MET) :             0.440ns  (required time - arrival time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[6]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[26]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.576ns  (logic 1.920ns (74.540%)  route 0.656ns (25.460%))
+  Logic Levels:           7  (CARRY4=6 LUT2=1)
+  Clock Path Skew:        -0.136ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.012ns = ( 8.137 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.328ns
+    Clock Pessimism Removal (CPR):    0.180ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.725     5.328    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y96          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[6]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y96          FDRE (Prop_fdre_C_Q)         0.456     5.784 r  AudioOsc/AcumuladorFase/QBus_reg[6]/Q
+                         net (fo=1, routed)           0.655     6.439    AudioOsc/AcumuladorFase/RegOUT[6]
+    SLICE_X1Y96          LUT2 (Prop_lut2_I1_O)        0.124     6.563 r  AudioOsc/AcumuladorFase/QBus[8]_i_6/O
+                         net (fo=1, routed)           0.000     6.563    AudioOsc/AcumuladorFase/QBus[8]_i_6_n_0
+    SLICE_X1Y96          CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.113 r  AudioOsc/AcumuladorFase/QBus_reg[8]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.113    AudioOsc/AcumuladorFase/QBus_reg[8]_i_1_n_0
+    SLICE_X1Y97          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.227 r  AudioOsc/AcumuladorFase/QBus_reg[12]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.227    AudioOsc/AcumuladorFase/QBus_reg[12]_i_1_n_0
+    SLICE_X1Y98          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.341 r  AudioOsc/AcumuladorFase/QBus_reg[16]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.341    AudioOsc/AcumuladorFase/QBus_reg[16]_i_1_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.455 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     7.456    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.570 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.570    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.334     7.904 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/O[1]
+                         net (fo=1, routed)           0.000     7.904    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_6
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[26]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.590     8.137    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[26]/C
+                         clock pessimism              0.180     8.317    
+                         clock uncertainty           -0.035     8.282    
+    SLICE_X1Y101         FDRE (Setup_fdre_C_D)        0.062     8.344    AudioOsc/AcumuladorFase/QBus_reg[26]
+  -------------------------------------------------------------------
+                         required time                          8.344    
+                         arrival time                          -7.904    
+  -------------------------------------------------------------------
+                         slack                                  0.440    
+
+Slack (MET) :             0.451ns  (required time - arrival time)
+  Source:                 RadioOsc/AcumuladorFase/QBus_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            RadioOsc/AcumuladorFase/QBus_reg[27]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            3.125ns  (sys_clk_pin rise@3.125ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        2.674ns  (logic 2.013ns (75.291%)  route 0.661ns (24.709%))
+  Logic Levels:           8  (CARRY4=7 LUT5=1)
+  Clock Path Skew:        -0.027ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.010ns = ( 8.135 - 3.125 ) 
+    Source Clock Delay      (SCD):    5.312ns
+    Clock Pessimism Removal (CPR):    0.275ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.710     5.312    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y102         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y102         FDRE (Prop_fdre_C_Q)         0.456     5.768 r  RadioOsc/AcumuladorFase/QBus_reg[1]/Q
+                         net (fo=1, routed)           0.661     6.429    AudioOsc/AcumuladorFase/Q[0]
+    SLICE_X0Y102         LUT5 (Prop_lut5_I3_O)        0.124     6.553 r  AudioOsc/AcumuladorFase/QBus[3]_i_8/O
+                         net (fo=1, routed)           0.000     6.553    AudioOsc/AcumuladorFase/QBus[3]_i_8_n_0
+    SLICE_X0Y102         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     7.103 r  AudioOsc/AcumuladorFase/QBus_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.103    AudioOsc/AcumuladorFase/QBus_reg[3]_i_1_n_0
+    SLICE_X0Y103         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.217 r  AudioOsc/AcumuladorFase/QBus_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.217    AudioOsc/AcumuladorFase/QBus_reg[7]_i_1_n_0
+    SLICE_X0Y104         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.331 r  AudioOsc/AcumuladorFase/QBus_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.331    AudioOsc/AcumuladorFase/QBus_reg[11]_i_1_n_0
+    SLICE_X0Y105         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.445 r  AudioOsc/AcumuladorFase/QBus_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.445    AudioOsc/AcumuladorFase/QBus_reg[15]_i_1_n_0
+    SLICE_X0Y106         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.559 r  AudioOsc/AcumuladorFase/QBus_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.559    AudioOsc/AcumuladorFase/QBus_reg[19]_i_1_n_0
+    SLICE_X0Y107         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     7.673 r  AudioOsc/AcumuladorFase/QBus_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     7.673    AudioOsc/AcumuladorFase/QBus_reg[23]_i_1_n_0
+    SLICE_X0Y108         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.313     7.986 r  AudioOsc/AcumuladorFase/QBus_reg[27]_i_1/O[3]
+                         net (fo=1, routed)           0.000     7.986    RadioOsc/AcumuladorFase/D[27]
+    SLICE_X0Y108         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[27]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      3.125     3.125 r  
+    E3                                                0.000     3.125 r  Clk (IN)
+                         net (fo=0)                   0.000     3.125    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411     4.536 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920     6.456    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     6.547 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          1.588     8.135    RadioOsc/AcumuladorFase/CLK
+    SLICE_X0Y108         FDRE                                         r  RadioOsc/AcumuladorFase/QBus_reg[27]/C
+                         clock pessimism              0.275     8.410    
+                         clock uncertainty           -0.035     8.375    
+    SLICE_X0Y108         FDRE (Setup_fdre_C_D)        0.062     8.437    RadioOsc/AcumuladorFase/QBus_reg[27]
+  -------------------------------------------------------------------
+                         required time                          8.437    
+                         arrival time                          -7.986    
+  -------------------------------------------------------------------
+                         slack                                  0.451    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.142ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[21]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.514ns  (logic 0.355ns (69.093%)  route 0.159ns (30.907%))
+  Logic Levels:           3  (CARRY4=2 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.054     2.038 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/O[0]
+                         net (fo=1, routed)           0.000     2.038    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_7
+    SLICE_X1Y100         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[21]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y100         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[21]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y100         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[21]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.038    
+  -------------------------------------------------------------------
+                         slack                                  0.142    
+
+Slack (MET) :             0.153ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[23]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.525ns  (logic 0.366ns (69.741%)  route 0.159ns (30.259%))
+  Logic Levels:           3  (CARRY4=2 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.065     2.049 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/O[2]
+                         net (fo=1, routed)           0.000     2.049    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_5
+    SLICE_X1Y100         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[23]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y100         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[23]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y100         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[23]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.049    
+  -------------------------------------------------------------------
+                         slack                                  0.153    
+
+Slack (MET) :             0.178ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[22]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.550ns  (logic 0.391ns (71.117%)  route 0.159ns (28.883%))
+  Logic Levels:           3  (CARRY4=2 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.090     2.074 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/O[1]
+                         net (fo=1, routed)           0.000     2.074    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_6
+    SLICE_X1Y100         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[22]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y100         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[22]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y100         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[22]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.074    
+  -------------------------------------------------------------------
+                         slack                                  0.178    
+
+Slack (MET) :             0.178ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[24]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.550ns  (logic 0.391ns (71.117%)  route 0.159ns (28.883%))
+  Logic Levels:           3  (CARRY4=2 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.090     2.074 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/O[3]
+                         net (fo=1, routed)           0.000     2.074    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_4
+    SLICE_X1Y100         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[24]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y100         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[24]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y100         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[24]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.074    
+  -------------------------------------------------------------------
+                         slack                                  0.178    
+
+Slack (MET) :             0.181ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[25]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.553ns  (logic 0.394ns (71.274%)  route 0.159ns (28.726%))
+  Logic Levels:           4  (CARRY4=3 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.039     2.023 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.023    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.054     2.077 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/O[0]
+                         net (fo=1, routed)           0.000     2.077    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_7
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[25]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[25]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y101         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[25]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.077    
+  -------------------------------------------------------------------
+                         slack                                  0.181    
+
+Slack (MET) :             0.192ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[27]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.564ns  (logic 0.405ns (71.834%)  route 0.159ns (28.166%))
+  Logic Levels:           4  (CARRY4=3 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.039     2.023 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.023    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.065     2.088 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/O[2]
+                         net (fo=1, routed)           0.000     2.088    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_5
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[27]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[27]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y101         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[27]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.088    
+  -------------------------------------------------------------------
+                         slack                                  0.192    
+
+Slack (MET) :             0.217ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[26]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.589ns  (logic 0.430ns (73.030%)  route 0.159ns (26.970%))
+  Logic Levels:           4  (CARRY4=3 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.039     2.023 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.023    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.090     2.113 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/O[1]
+                         net (fo=1, routed)           0.000     2.113    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_6
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[26]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[26]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y101         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[26]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.113    
+  -------------------------------------------------------------------
+                         slack                                  0.217    
+
+Slack (MET) :             0.217ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[28]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.589ns  (logic 0.430ns (73.030%)  route 0.159ns (26.970%))
+  Logic Levels:           4  (CARRY4=3 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.039     2.023 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.023    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.090     2.113 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/O[3]
+                         net (fo=1, routed)           0.000     2.113    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_4
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[28]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y101         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[28]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y101         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[28]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.113    
+  -------------------------------------------------------------------
+                         slack                                  0.217    
+
+Slack (MET) :             0.220ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[29]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.592ns  (logic 0.433ns (73.167%)  route 0.159ns (26.833%))
+  Logic Levels:           5  (CARRY4=4 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.039     2.023 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.023    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.039     2.062 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.062    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_0
+    SLICE_X1Y102         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.054     2.116 r  AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0/O[0]
+                         net (fo=1, routed)           0.000     2.116    AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0_n_7
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[29]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[29]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y102         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[29]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.116    
+  -------------------------------------------------------------------
+                         slack                                  0.220    
+
+Slack (MET) :             0.231ns  (arrival time - required time)
+  Source:                 AudioOsc/AcumuladorFase/QBus_reg[20]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Destination:            AudioOsc/AcumuladorFase/QBus_reg[31]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@1.563ns period=3.125ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.603ns  (logic 0.444ns (73.657%)  route 0.159ns (26.343%))
+  Logic Levels:           5  (CARRY4=4 LUT2=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.037ns
+    Source Clock Delay      (SCD):    1.524ns
+    Clock Pessimism Removal (CPR):    0.245ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.250     0.250 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.644     0.894    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.920 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.605     1.524    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y99          FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[20]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y99          FDRE (Prop_fdre_C_Q)         0.141     1.665 r  AudioOsc/AcumuladorFase/QBus_reg[20]/Q
+                         net (fo=1, routed)           0.158     1.823    AudioOsc/AcumuladorFase/RegOUT[20]
+    SLICE_X1Y99          LUT2 (Prop_lut2_I1_O)        0.045     1.868 r  AudioOsc/AcumuladorFase/QBus[20]_i_2/O
+                         net (fo=1, routed)           0.000     1.868    AudioOsc/AcumuladorFase/QBus[20]_i_2_n_0
+    SLICE_X1Y99          CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.115     1.983 r  AudioOsc/AcumuladorFase/QBus_reg[20]_i_1/CO[3]
+                         net (fo=1, routed)           0.001     1.984    AudioOsc/AcumuladorFase/QBus_reg[20]_i_1_n_0
+    SLICE_X1Y100         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.039     2.023 r  AudioOsc/AcumuladorFase/QBus_reg[24]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.023    AudioOsc/AcumuladorFase/QBus_reg[24]_i_1_n_0
+    SLICE_X1Y101         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.039     2.062 r  AudioOsc/AcumuladorFase/QBus_reg[28]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.062    AudioOsc/AcumuladorFase/QBus_reg[28]_i_1_n_0
+    SLICE_X1Y102         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.065     2.127 r  AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0/O[2]
+                         net (fo=1, routed)           0.000     2.127    AudioOsc/AcumuladorFase/QBus_reg[31]_i_1__0_n_5
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[31]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  Clk (IN)
+                         net (fo=0)                   0.000     0.000    Clk
+    E3                   IBUF (Prop_ibuf_I_O)         0.438     0.438 r  Clk_IBUF_inst/O
+                         net (fo=1, routed)           0.699     1.136    Clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     1.165 r  Clk_IBUF_BUFG_inst/O
+                         net (fo=63, routed)          0.872     2.037    AudioOsc/AcumuladorFase/CLK
+    SLICE_X1Y102         FDRE                                         r  AudioOsc/AcumuladorFase/QBus_reg[31]/C
+                         clock pessimism             -0.245     1.791    
+    SLICE_X1Y102         FDRE (Hold_fdre_C_D)         0.105     1.896    AudioOsc/AcumuladorFase/QBus_reg[31]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.127    
+  -------------------------------------------------------------------
+                         slack                                  0.231    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         sys_clk_pin
+Waveform(ns):       { 0.000 1.563 }
+Period(ns):         3.125
+Sources:            { Clk }
+
+Check Type        Corner  Lib Pin  Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location        Pin
+Min Period        n/a     BUFG/I   n/a            2.155         3.125       0.970      BUFGCTRL_X0Y16  Clk_IBUF_BUFG_inst/I
+Min Period        n/a     FDRE/C   n/a            1.000         3.125       2.125      SLICE_X1Y97     AudioOsc/AcumuladorFase/QBus_reg[10]/C
+Min Period        n/a     FDRE/C   n/a            1.000         3.125       2.125      SLICE_X1Y97     AudioOsc/AcumuladorFase/QBus_reg[11]/C
+Min Period        n/a     FDRE/C   n/a            1.000         3.125       2.125      SLICE_X1Y97     AudioOsc/AcumuladorFase/QBus_reg[12]/C
+Min Period        n/a     FDRE/C   n/a            1.000         3.125       2.125      SLICE_X1Y98     AudioOsc/AcumuladorFase/QBus_reg[13]/C
+Min Period        n/a     FDRE/C   n/a            1.000         3.125       2.125      SLICE_X1Y98     AudioOsc/AcumuladorFase/QBus_reg[14]/C
+Min Period        n/a     FDRE/C   n/a            1.000         3.125       2.125      SLICE_X1Y98     AudioOsc/AcumuladorFase/QBus_reg[15]/C
+Min Period        n/a     FDRE/C   n/a            1.000         3.125       2.125      SLICE_X1Y98     AudioOsc/AcumuladorFase/QBus_reg[16]/C
+Min Period        n/a     FDRE/C   n/a            1.000         3.125       2.125      SLICE_X1Y99     AudioOsc/AcumuladorFase/QBus_reg[17]/C
+Min Period        n/a     FDRE/C   n/a            1.000         3.125       2.125      SLICE_X1Y99     AudioOsc/AcumuladorFase/QBus_reg[18]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X0Y109    RadioOsc/AcumuladorFase/QBus_reg[28]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X0Y109    RadioOsc/AcumuladorFase/QBus_reg[29]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X0Y109    RadioOsc/AcumuladorFase/QBus_reg[30]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X0Y109    RadioOsc/AcumuladorFase/QBus_reg[31]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X1Y97     AudioOsc/AcumuladorFase/QBus_reg[10]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X1Y97     AudioOsc/AcumuladorFase/QBus_reg[11]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X1Y97     AudioOsc/AcumuladorFase/QBus_reg[12]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X1Y98     AudioOsc/AcumuladorFase/QBus_reg[13]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X1Y98     AudioOsc/AcumuladorFase/QBus_reg[14]/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         1.562       1.062      SLICE_X1Y98     AudioOsc/AcumuladorFase/QBus_reg[15]/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X0Y95     AudioOsc/AcumuladorFase/QBus_reg[1]/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X1Y95     AudioOsc/AcumuladorFase/QBus_reg[2]/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X1Y95     AudioOsc/AcumuladorFase/QBus_reg[3]/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X1Y95     AudioOsc/AcumuladorFase/QBus_reg[4]/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X1Y96     AudioOsc/AcumuladorFase/QBus_reg[5]/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X1Y96     AudioOsc/AcumuladorFase/QBus_reg[6]/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X1Y96     AudioOsc/AcumuladorFase/QBus_reg[7]/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X1Y96     AudioOsc/AcumuladorFase/QBus_reg[8]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X1Y100    AudioOsc/AcumuladorFase/QBus_reg[21]/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         1.563       1.063      SLICE_X1Y100    AudioOsc/AcumuladorFase/QBus_reg[22]/C
+
+
+

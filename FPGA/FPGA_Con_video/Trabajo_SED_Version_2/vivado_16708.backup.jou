@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Feb  6 10:02:59 2021
+# Process ID: 16708
+# Current directory: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11908 C:\Users\Leonard Matulescu\Desktop\Universidad\Proyectos Vivado\Trabajo_SED_Version_2\Trabajo_SED_Version_2.xpr
+# Log file: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/vivado.log
+# Journal file: C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.xpr}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TransmisorFM [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Oscilador_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source Oscilador_tb.tcl
+close_sim
+launch_simulation
+source Oscilador_tb.tcl
+close_sim
+launch_simulation
+source Oscilador_tb.tcl
+close_sim
+launch_simulation
+source Oscilador_tb.tcl
+close_sim
+launch_simulation
+source Oscilador_tb.tcl
+close_sim
+launch_simulation
+source Oscilador_tb.tcl
+close_sim
+launch_simulation
+source Oscilador_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Registro [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top_arch Behavioral [get_filesets sim_1]
+set_property top_file {C:/Users/Leonard Matulescu/Desktop/Universidad/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Registro.vhd} [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+refresh_design
+close_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Registro [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TransmisorFM [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design
+synth_design -rtl -name rtl_1
+close_design

@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Trabajo_SED_Version_5.srcs/sources_1/imports/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Oscilador.vhd" \
+"../../../../Trabajo_SED_Version_5.srcs/sources_1/imports/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/Registro.vhd" \
+"../../../../Trabajo_SED_Version_5.srcs/sources_1/imports/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sources_1/new/TransmisorFM.vhd" \
+"../../../../Trabajo_SED_Version_5.srcs/sources_1/imports/Proyectos Vivado/XADC/XADC.srcs/sources_1/imports/new/top_XADC.vhd" \
+"../../../../Trabajo_SED_Version_5.srcs/sim_1/imports/Proyectos Vivado/Trabajo_SED_Version_2/Trabajo_SED_Version_2.srcs/sim_1/new/TransmisorFM_tb.vhd" \
+
+# Do not sort compile order
+nosort
